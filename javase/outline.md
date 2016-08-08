@@ -13,22 +13,27 @@
 - 变量与数据类型 **`掌握`**
 	- `Java` 数据类型及分类
 	- 基本数据类型
-整型（`byte`，`short`，`int`，`long`），浮点型（`float`、`double`），
-字符型（`char`），布尔型（`Boolean`）
+      - 整型 `byte`，`short`，`int`，`long`
+      - 浮点型 `float`、`double`
+      - 字符型 `char`
+      - 布尔型`boolean`
 	- 变量及常量的定义与使用
 	- 基本数据类型值间转换
 - 运算符与表达式 **`掌握`**
 	- 常用运算符
-算术运算符（+，－，*，/，%，++，--），关系运算符（>，<，>=，<=，!=，= =），逻辑运算符等（ &&，||， ！ ）
+      - 算术运算符 +，－，*，/，%，++，--
+      - 关系运算符 >，<，>=，<=，!=，==
+      - 逻辑运算符等 &&，||， ！
 	- 表达式
-表达式计算及运算符优先级等
+      - 表达式计算及运算符优先级等
 	- 语句
-语句分类及`Java` 程序书写规则（分号、语句块及空格）
+      - 语句分类及 `Java` 程序书写规则（分号、语句块及空格）
 - 程序流程控制 **`掌握`**
 	- `if` `else` 语句
 	- `switch` 语句
 	- `for` 语句
-	- `while` 语句 / `do` `while` 语句
+	- `while` 语句
+    - `do` `while` 语句
 - 数组 **`掌握`**
 	- 数组的声明与创建及初始化
 	- 数组的常用操作
@@ -53,17 +58,22 @@
 	- 静态初始化器
 - 类的组织-包
 	- `Java` 源程序文件的基本语法 **`理解`**
-`package` – `import` – `class` 定义
 	- 软件包的基本概念 **`理解`**
 	- `package` 语句 **`掌握`**
 	- `import` 语句 **`掌握`**
 	- 目录（树）结构与包 **`理解`**
 - 类及成员的访问控制 **`掌握`**
-	- 类的访问控制（`public`）
-	- 类成员的访问控制（`private`、`protected`、`public` 及默认访问权限）
-- `Java` `API` 文档的使用
+	- 类的访问控制 
+      - `public`
+      - `default`
+	- 类成员的访问控制
+      - `public`
+      - `protected`
+      - `default`
+      - `private`
+- `Java API` 文档的使用
 	- `Java` 类库 **`了解`**
-	- 使用`Java` `API` 文档 **`掌握`**
+	- 使用`Java API` 文档 **`掌握`**
 	
 ### 4. 面向对象程序设计 – 继承与多态
 - 类的继承
@@ -89,18 +99,18 @@
 	- 接口的实现 **`掌握`**
 	
 ### 6. `Java` 语言基础类库
-- `Java`.`lang` 包
+- `Java.lang` 包
 	- `Object` 类 **`了解`**
 	- `System` 类 **`了解`**
 	- `Math` 类 **`掌握`**
 	- `String` 类 **`掌握`**
 	- `StringBuffer` 类 **`掌握`**
-- `java`.`util` 包 **`掌握`**
+- `java.util` 包 **`掌握`**
 	- `Arrays` 类
 	- `Date` 类
 	- `Calendar` 类
 	- `Random` 类
-- `java`.`text` 包 **`掌握`**
+- `java.text` 包 **`掌握`**
 	- `SimpleDateFormat` 类
 	- `DecimalFormat` 类
 - 聚集框架
@@ -119,29 +129,45 @@
 - 系统异常类 **`了解`**
 	- 系统异常类的继承关系
 	- 常用系统异常类
-`Exception`、`IOException`、`NullPointerException`、
-`SQLException`、等
+      - `Exception`
+      - `IOException`
+      - `NullPointerException`
+      - `SQLException`
 - 异常的处理机制 **`掌握`**
 	- `try`/`catch` 结构（包括多异常处理）
 	- `try`/`finally` 结构
 - 自定义异常（异常类的定义、抛出及处理） **`了解`**
 	- 异常类的定义
-	- 自定义异常类的抛出（`throw`）
+	- 自定义异常类的抛出 `throw`
 	- 自定义异常类的处理及应用
 - 异常的转移 **`掌握`**
-	- 从方法定义抛出异常（`throws`）
+	- 从方法定义抛出异常 `throws`
 	
 ### 8.`java` 程序输入输出
 - 文件操作 **`掌握`**
 	- `File` 类及其对象的创建
 	- `File` 类常用方法
-`exists`、`isFile`、`isDirectory`、`length`、`getName`、`getPath`、`list`、`listFiles`、`delete`、`mkdir`
+     - `exists`
+     - `isFile`
+     - `isDirectory`
+     - `length`
+     - `getName`
+     - `getPath`
+     - `list`
+     - `listFiles`
+     - `delete`
+     - `mkdir`
 	- `RandomAccessFile` 类及文件随机访问
 - `Java` 流式输入输出概述
-	- `Java`.`io` 包 **`了解`**
+	- `Java.io` 包 **`了解`**
 	- 流的基本概念与程序输入输出 **`理解`**
 	- `IO` 流的类别 **`理解`**
-输入流、输出流、字节流、字符流、节点流、过滤流等
+      - 输入流
+      - 输出流
+      - 字节流
+      - 字符流
+      - 节点流
+      - 过滤流等
 	- `Java` `io` 流的层次 **`理解`**
 - 字节输入流 **`掌握`**
 	- `InputStream` 类及基本方法
@@ -173,7 +199,11 @@
 - `JDK` 开发工具 **`掌握`**
 	- `JDK` 基本组成及目录结构
 	- `JDK` 的下载与安装
-	- `JDK` 常用命令（`javac`、`java`、`javadoc`、`jar`）
+	- `JDK` 常用命令
+      - `javac`
+      - `java`
+      - `javadoc`
+      - `jar`
 - `IDEA` 集成开发环境 **`掌握`**
 	- `IDEA` 安装与目录结构
 	- `IDEA` 配置
