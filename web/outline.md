@@ -18,14 +18,30 @@
 	- `HTML` 语法基础（标签、属性、元素、文档、注释）
 - `HTML` 编程基础 **` 掌握`**
 	- `HTML` 文档基本结构
-      - `!DOCTYPE` `HTML` `HTML`、`HEAD`、`TITLE`、`META`、`BODY`
+      - `!DOCTYPE`
+      - `HTML`
+      - `HTML`
+      - `HEAD`
+      - `TITLE`
+      - `META`
+      - `BODY`
 	- 段落
-      - 段落`p`、换行`br`、`wbr`、分割线`hr`
-	- 标题 （ `h1` ~ `h6` ）
+      - `p`
+      - `br`
+      - `wbr`
+      - `hr`
+	- 标题
+      - `h1` ~ `h6`
 	- 字体设置
 	- 文字修饰 
-      - 粗体 `b` 、斜体 `i` 、下划线 `u` 、 删除线 `s` 
-      - 大字体 `big` 、小字体 `small` 、 上标 `sup` 、下标 `sub`
+      - `b`
+      - `i`
+      - `u`
+      - `s` 
+      - `big`
+      - `small`
+      - `sup`
+      - `sub`
 	- 列表
       - 无序列表 `ul` `type`= …  `li` … /`ul`
       - 有序列表 `ol` `type` = … `start` = …  	  `li` …   /`ol`
@@ -36,82 +52,138 @@
 
 - 插入对象 **` 掌握`**
 	- 插入链接
-      - `a`  `href` = "`url`" `target`=  …      /`a`
-包括其他站点链接和页面中指定位置链接，邮件链接及图像链接。
+      - `a`
+        - `href`
+        - "`url`
+        - `target`
+        - 包括其他站点链接和页面中指定位置链接，邮件链接及图像链接
 	- 插入图像
-      - `img`  `src`=  `alt`=  `title`=  `width` =  `height` =  `border`=  `align` = …
+      - `img`
+      - `src`
+      - `alt`
+      - `title`
+      - `width`
+      - `height`
+      - `border`
+      - `align`
       - 常用图像格式：`JPEG`、`GIF`、`PNG` 等
 	- 插入表格
-      - `table`……/`table`
-      - `tr`……/`tr`     `td`……/`td`    `th`……/`th`
-      - `thead`/`thead`,
-      - `tbody`/`tbody`,
-      - `tfoot`/`tfoot`,
-     - `caption`/`caption`,
+      - `table`
+      - `tr`
+      - `td`
+      - `th`
+      - `thead`
+      - `tbody`
+      - `tfoot`
+     - `caption
 	- 滚动字幕
-	- 插入`video` 和`audio`:
-	  - `audio`/`audio`,`video`/`video`
-
+	- 插入`video` 和`audio`
+	  - `audio`
+      - `video`
 - 框架与布局设计 **` 掌握`**
 	- 框架集与框架
-      - `frameset`  `cols`=… / `rows` =…  `border`=… `bordercolor`=… … /`framset`
-      - `frame`  `src`=… 
-    - 内联框架（窗口）
-      - `iframe` `src`=… `name`=… `width`… `height`=… …  /`iframe`
-
+      - `frameset`
+      - `cols`
+      - `rows`
+      - `border`
+      - `bordercolor`
+      - `frame`
+      - `src`
+    - 内联框架
+      - `iframe`
+      - `src`
+      - `name`
+      - `width`
+      - `height`
 - 表单与界面设计 **` 掌握`**
 	- 建立表单
-      - `form` `autocomplete`=”`on`/`off`” `novalidate` `name`="表单名" `method`="`get`/`post`" `action`="`URL`" … /`form`
-	- 表单控件（单行输入域）-`input` 标签
-	  - `input` `autocomplete`=”`on`/`off`”  `autofocus`   `form`=”表单`ID`”  `placeholder`=”文字” `height`=”数值” `weight`=”数值”  `required`  `pattern` (`regexp`) `list`=”`datalist` 的`id`” `name`="控件名" `type`="控件类型" … 
-`type`= `text` / `password` / `button` / `submit` / `reset` / `radio` / `checkbox` / `file`
-`type`=`email`/`url`/`search`/`telephone`/`url`
-`type`=`calendar`
-`type`=`date`/`month`/`week`/`time`/`datetime`/`datetime`-`local`
-`type`=`color`
-`type`=`range`/`number`  `min`=”数字”  `max`=”数字”  `step`=”数字”；
-	- 表单控件（列表选择域）-`select` 标签
-`select` `name`=”控件名” `size`="`value`"
-	`option` … … /`option`  	`option` …  …/`option` …
-/`select`
-	- 表单控件（多行文本框）-`textarea` 标签
-`textarea` `name`=”控件名” `rows`="`value`" `cols`="`value`" …/`textarea`
-	- 控件说明-`label` 标签
-`label` 说明文字 /`label`
-`fieldset``legend`…./`legend`/`fieldset`
-
+      - `form` 
+      - `autocomplete`=”`on`/`off`” 
+      - `novalidate` 
+      - `name`="表单名" 
+      - `method`="`get`/`post`" 
+      - `action`="`URL`"
+    - `input` 标签
+      - `autocomplete`=”`on`/`off`”  
+      - `autofocus`   
+      - `form`=”表单`ID`”  
+      - `placeholder`=”文字” 
+      - `height`=”数值” 
+      - `weight`=”数值”  
+      - `required`  
+      - `pattern` (`regexp`) 
+      - `list`=”`datalist` 的`id`” 
+      - `name`="控件名" 
+      - `type`="控件类型" 
+        - `text`
+        - `password`
+        - `button`
+        - `submit`
+        - `reset`
+        - `radio`
+        - `checkbox`
+        - `file`
+        - `email`
+        - `url`
+        - `search`
+        - `telephone`
+        - `calendar`
+        - `date`/`month`/`week`/`time`/`datetime`/`datetime`-`local`
+        - `color`
+        - `range`/`number`  `min`=”数字”  `max`=”数字”  `step`=”数字”
+	- 列表选择域 `select`
+      - `name`
+      - `size`
+      - `option`
+      - `selected`
+	- 多行文本框 `textarea`
+      - `name`
+      - `rows`
+      - `cols`
+	- 控件说明
+      - `label`
+      - `fieldset`
+      - `legend`
 	- 新表单元素：
-      - `datalist`/`datalist`
-      - `keygen`/`keygen`
-      - `output`/`output`
-	- 对`input` 元素新加的`form` `overrides` 属性，包括：
-`formaction`, `formenctype`, `formmethod`, `formnovalidate`, `formtarget`
-- `HTML`5其他新标签：
-	- `article`/`article`,`header`/`header`、`footer`/`footer`,`nav`/`nav`、`section`/`section`
-    `aside`
-    `bdi`
-    `command`
-    `details``summary`/`summary`/`details`
-    `dialog`
-    `embed`
-    `figure``figcaption`/`figcaption`/`figure`
-    `keygen`
-    `mark`
-    `meter`
-    `progress`
-    `rp`
-    `rt`
-    `ruby`
-    `time`
-    `track`
-- `HTML`5新加的全局属性：
-    `contenteditable`：`true` `or` `false`；
-    `contextmenu`；
-    `draggable`；
-    `dropzone`；
-    `hidden`；
-    `spellcheck`；
-    `translate`；
+      - `datalist`
+      - `keygen`
+      - `output`
+	- 对 `input` 元素新加的 `form` `overrides` 属性
+      - `formaction`
+      - `formenctype`
+      - `formmethod`
+      - `formnovalidate`
+      - `formtarget`
+- `HTML5` 其他新标签：
+   - `article`
+   - `header`
+   - `footer`
+   - `nav`
+   - `section`
+   - `aside`
+   - `bdi`
+   - `command`
+   - `details` `summary`
+   - `dialog`
+   - `embed`
+   - `figure` `figcaption`
+   - `keygen`
+   - `mark`
+   - `meter`
+   - `progress`
+   - `rp`
+   - `rt`
+   - `ruby`
+   - `time`
+   - `track`
+- `HTML5` 新加的全局属性：
+   - `contenteditable`
+   - `contextmenu`
+   - `draggable`
+   - `dropzone`
+   - `hidden`
+   - `spellcheck`
+   - `translate`
 
 ### 3. `CSS` 样式表设计
 - `CSS` 样式表基础知识 **` 掌握`**
