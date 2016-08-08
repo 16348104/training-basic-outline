@@ -1,4 +1,4 @@
-# Java SE 教学基本要求
+# <center>Java SE 教学基本要求</center>
 
 ### 1. `Java` 语言概述
 - `Java` 语言简介 **`了解`**
@@ -174,9 +174,9 @@
 	- `JDK` 基本组成及目录结构
 	- `JDK` 的下载与安装
 	- `JDK` 常用命令（`javac`、`java`、`javadoc`、`jar`）
-- `MyEclipse` 开发环境 **`掌握`**
-	- `MyEclipse` 安装与目录结构
-	- `MyEclipse` 配置
-	- `MyEclipse` 工作空间
-	- `MyEclipse` 界面基本使用
+- `IDEA` 集成开发环境 **`掌握`**
+	- `IDEA` 安装与目录结构
+	- `IDEA` 配置
+	- `IDEA` 工作空间
+	- `IDEA` 界面基本使用
 - `Log4J` 调试工具 **`较高要求`**
