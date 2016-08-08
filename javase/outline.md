@@ -1,17 +1,17 @@
 # Java SE 教学基本要求
 
-### 1. Java语言概述
-- Java语言简介 **`了解`**
-- Java程序运行机制与JVM **`理解`**
-- Java程序类型 **`了解`**
+### 1. Java 语言概述
+- Java 语言简介 **`了解`**
+- Java 程序运行机制与JVM **`理解`**
+- Java 程序类型 **`了解`**
 
-### 2. Java语言基础
+### 2. Java 语言基础
 - 标识符与关键字 **`掌握`**
-	- Java标识符（用途，命名规则）
-	- Java关键字
-	- Java程序中的注释方法（3种）
+	- Java 标识符（用途，命名规则）
+	- Java 关键字
+	- Java 程序中的注释方法（3种）
 - 变量与数据类型 **`掌握`**
-	- Java数据类型及分类
+	- Java 数据类型及分类
 	- 基本数据类型
 整型（byte，short，int，long），浮点型（float、double），
 字符型（char），布尔型（Boolean）
@@ -23,12 +23,12 @@
 	- 表达式
 表达式计算及运算符优先级等
 	- 语句
-语句分类及Java程序书写规则（分号、语句块及空格）
+语句分类及Java 程序书写规则（分号、语句块及空格）
 - 程序流程控制 **`掌握`**
-	- if else语句
-	- switch语句
-	- for语句
-	- while语句 / do while语句
+	- if else 语句
+	- switch 语句
+	- for 语句
+	- while 语句 / do while 语句
 - 数组 **`掌握`**
 	- 数组的声明与创建及初始化
 	- 数组的常用操作
@@ -39,7 +39,7 @@
 	- 抽象、封装与类，类、对象、属性、方法
 	- 面向对象程序设计方法的优点（可重用性，可扩展性、可管理性）
 - 类的定义与对象创建
-	- Java程序中的类（系统类与用户自定义类） **`理解`**
+	- Java 程序中的类（系统类与用户自定义类） **`理解`**
 	- 属性定义 **`掌握`**
 	- 方法的定义 **`掌握`**
 	- 方法的重载 **`掌握`**
@@ -52,18 +52,18 @@
 	- 静态方法（类方法）的定义与使用
 	- 静态初始化器
 - 类的组织-包
-	- Java源程序文件的基本语法 **`理解`**
-package – import – class定义
+	- Java 源程序文件的基本语法 **`理解`**
+package – import – class 定义
 	- 软件包的基本概念 **`理解`**
-	- package语句 **`掌握`**
-	- import语句 **`掌握`**
+	- package 语句 **`掌握`**
+	- import 语句 **`掌握`**
 	- 目录（树）结构与包 **`理解`**
 - 类及成员的访问控制 **`掌握`**
 	- 类的访问控制（public）
-	- 类成员的访问控制（private、protected、public及默认访问权限）
-- Java API文档的使用
-	- Java类库 **`了解`**
-	- 使用Java API文档 **`掌握`**
+	- 类成员的访问控制（private、protected、public 及默认访问权限）
+- Java API 文档的使用
+	- Java 类库 **`了解`**
+	- 使用Java API 文档 **`掌握`**
 	
 ### 4. 面向对象程序设计 – 继承与多态
 - 类的继承
@@ -88,33 +88,33 @@ package – import – class定义
 	- 接口的定义方法 **`掌握`**
 	- 接口的实现 **`掌握`**
 	
-### 6. Java语言基础类库
-- Java.lang包
-	- Object类 **`了解`**
-	- System类 **`了解`**
-	- Math类 **`掌握`**
-	- String类 **`掌握`**
-	- StringBuffer类 **`掌握`**
-- java.util包 **`掌握`**
-	- Arrays类
-	- Date类
-	- Calendar类
-	- Random类
-- java.text包 **`掌握`**
-	- SimpleDateFormat类
-	- DecimalFormat类
+### 6. Java 语言基础类库
+- Java.lang 包
+	- Object 类 **`了解`**
+	- System 类 **`了解`**
+	- Math 类 **`掌握`**
+	- String 类 **`掌握`**
+	- StringBuffer 类 **`掌握`**
+- java.util 包 **`掌握`**
+	- Arrays 类
+	- Date 类
+	- Calendar 类
+	- Random 类
+- java.text 包 **`掌握`**
+	- SimpleDateFormat 类
+	- DecimalFormat 类
 - 聚集框架
 	- 聚集框架的基本概念 **`理解`**
-	- ArrayList类 **`掌握`**
-	- Vector类 **`掌握`**
-	- HashTable类 **`掌握`**
+	- ArrayList 类 **`掌握`**
+	- Vector 类 **`掌握`**
+	- HashTable 类 **`掌握`**
 - 泛型
 	- 泛型的基本概念 **`理解`**
 	- 聚集类与泛型 **`理解`**
 	- 泛型的定义及应用 **`掌握`**
 - 对象数组 **`掌握`**
 
-### 7.java程序异常处理
+### 7.java 程序异常处理
 - 异常及异常类的基本概念 **`理解`**
 - 系统异常类 **`了解`**
 	- 系统异常类的继承关系
@@ -122,8 +122,8 @@ package – import – class定义
 Exception、IOException、NullPointerException、
 SQLException、等
 - 异常的处理机制 **`掌握`**
-	- try/catch结构（包括多异常处理）
-	- try/finally结构
+	- try/catch 结构（包括多异常处理）
+	- try/finally 结构
 - 自定义异常（异常类的定义、抛出及处理） **`了解`**
 	- 异常类的定义
 	- 自定义异常类的抛出（throw）
@@ -131,52 +131,52 @@ SQLException、等
 - 异常的转移 **`掌握`**
 	- 从方法定义抛出异常（throws）
 	
-### 8.java程序输入输出
+### 8.java 程序输入输出
 - 文件操作 **`掌握`**
-	- File类及其对象的创建
-	- File类常用方法
+	- File 类及其对象的创建
+	- File 类常用方法
 exists、isFile、isDirectory、length、getName、getPath、list、listFiles、delete、mkdir
-	- RandomAccessFile类及文件随机访问
-- Java流式输入输出概述
-	- Java.io包 **`了解`**
+	- RandomAccessFile 类及文件随机访问
+- Java 流式输入输出概述
+	- Java.io 包 **`了解`**
 	- 流的基本概念与程序输入输出 **`理解`**
-	- IO流的类别 **`理解`**
+	- IO 流的类别 **`理解`**
 输入流、输出流、字节流、字符流、节点流、过滤流等
-	- Java io流的层次 **`理解`**
+	- Java io 流的层次 **`理解`**
 - 字节输入流 **`掌握`**
-	- InputStream类及基本方法
-	- FileInputStream类
-	- BufferedInputStream类
-	- DataInputStream类
+	- InputStream 类及基本方法
+	- FileInputStream 类
+	- BufferedInputStream 类
+	- DataInputStream 类
 - 字节输出流 **`掌握`**
-	- OutputStream类及基本方法
-	- FileOutputStream类
-	- DataOutputStream类
-	- PrintStream类
+	- OutputStream 类及基本方法
+	- FileOutputStream 类
+	- DataOutputStream 类
+	- PrintStream 类
 - 字符输入流 **`掌握`**
-	- Reader类及基本方法
-	- BufferedReader类
-	- FileReader类
+	- Reader 类及基本方法
+	- BufferedReader 类
+	- FileReader 类
 - 字符输出流 **`掌握`**
-	- Writer类及基本方法
-	- BufferedWriter类
-	- FileWriter类
-- IO应用 - 文件输入输出 **`掌握`**
-- IO应用 – 标准输入输出 **`掌握`**
+	- Writer 类及基本方法
+	- BufferedWriter 类
+	- FileWriter 类
+- IO 应用 - 文件输入输出 **`掌握`**
+- IO 应用 – 标准输入输出 **`掌握`**
 
-### 9.java多线程编程 **`了解`**
+### 9.java 多线程编程 **`了解`**
 - 进程与线程的基本概念
 - 线程类及接口
 - 线程的同步与互斥
 
-### 10.Java程序开发环境与工具
-- JDK开发工具 **`掌握`**
-	- JDK基本组成及目录结构
-	- JDK的下载与安装
-	- JDK常用命令（javac、java、javadoc、jar）
-- MyEclipse开发环境 **`掌握`**
-	- MyEclipse安装与目录结构
-	- MyEclipse配置
-	- MyEclipse工作空间
-	- MyEclipse界面基本使用
-- Log4J调试工具 **`较高要求`**
+### 10.Java 程序开发环境与工具
+- JDK 开发工具 **`掌握`**
+	- JDK 基本组成及目录结构
+	- JDK 的下载与安装
+	- JDK 常用命令（javac、java、javadoc、jar）
+- MyEclipse 开发环境 **`掌握`**
+	- MyEclipse 安装与目录结构
+	- MyEclipse 配置
+	- MyEclipse 工作空间
+	- MyEclipse 界面基本使用
+- Log4J 调试工具 **`较高要求`**
