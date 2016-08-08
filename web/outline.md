@@ -3,203 +3,203 @@
 
 ### 1. 网页设计开发环境与工具
 - `WebStrom` 集成开发环境
-	- 系统安装与配置 **` 了解`**
-	- 新建普通`HTML` 文件、`JS` 文件、`CSS` 文件 **` 掌握`**
-	- 编辑窗口的使用 **` 掌握`**
-	- 快捷键 **` 掌握`**
+  - 系统安装与配置 **`了解`**
+  - 新建普通`HTML` 文件、`JS` 文件、`CSS` 文件 **`掌握`**
+  - 编辑窗口的使用 **`掌握`**
+  - 快捷键 **`掌握`**
 - 普通文本编辑工具
-	- `Notepad++` 工具或其他文本编辑工具编辑网页设计文件 **` 掌握`**
+  - `Notepad++` 工具或其他文本编辑工具编辑网页设计文件 **`掌握`**
 
 ### 2. `HTML` 语言编程
-- `HTML` 语言基础知识 **` 掌握`**
-	- `HTML` 语言简介
-	- `HTML` 语法基础
-      - 标签
-      - 属性
-      - 元素
-      - 文档
-      - 注释
-- `HTML` 编程基础 **` 掌握`**
-	- `HTML` 文档基本结构
-      - `!DOCTYPE`
-      - `HTML`
-      - `HTML`
-      - `HEAD`
-      - `TITLE`
-      - `META`
-      - `BODY`
-	- 段落
-      - `p`
-      - `br`
-      - `wbr`
-      - `hr`
-	- 标题
-      - `h1` ~ `h6`
-	- 字体设置
-	- 文字修饰 
-      - `b`
-      - `i`
-      - `u`
-      - `s` 
-      - `big`
-      - `small`
-      - `sup`
-      - `sub`
-	- 列表
-      - `ul`
+- `HTML` 语言基础知识 **`掌握`**
+  - `HTML` 语言简介
+  - `HTML` 语法基础
+    - 标签
+    - 属性
+    - 元素
+    - 文档
+    - 注释
+- `HTML` 编程基础 **`掌握`**
+  - `HTML` 文档基本结构
+    - `!DOCTYPE`
+    - `HTML`
+    - `HTML`
+    - `HEAD`
+    - `TITLE`
+    - `META`
+    - `BODY`
+  - 段落 `p`
+    - `br`
+    - `wbr`
+    - `hr`
+  - 标题 `h1` ~ `h6`
+  - 字体设置
+  - 文字修饰 
+    - `b`
+    - `i`
+    - `u`
+    - `s` 
+    - `big`
+    - `small`
+    - `sup`
+    - `sub`
+  - 列表
+    - `ul`
       - `type`
       - `li`
-      - `ol`
+    - `ol`
       - `type`
       - `start`
       - `li`
-      - `ol`
-      - `dl`
+    - `dl`
       - `dt`
       - `dd`
-      - `dt`
-	- 特殊符号(`html` 实体)
-      - `&nbsp;`
-      - `&gt;`
-      - `&lt;`
-      - `&amp;`
-- 嵌入对象 **` 掌握`**
-	- 链接 `a`
-      - `href`
-      - "`url`
-      - `target`
-      - 包括其他站点链接和页面中指定位置链接，邮件链接及图像链接
-	- 图像 `img`
-      - `src`
-      - `alt`
-      - `title`
-      - `width`
-      - `height`
-      - `border`
-      - `align`
-      - 常用图像格式：`JPEG`、`GIF`、`PNG` 等
-	- 插入表格 `table`
-      - `tr`
-      - `td`
-      - `th`
-      - `thead`
-      - `tbody`
-      - `tfoot`
-     - `caption
-	- 滚动字幕
-	- 音频视频
-	  - `audio`
-      - `video`
-- 框架与布局设计 **` 掌握`**
-	- 框架集与框架
-      - `frameset`
-      - `cols`
-      - `rows`
-      - `border`
-      - `bordercolor`
-      - `frame`
-      - `src`
-    - 内联框架
-      - `iframe`
-      - `src`
-      - `name`
-      - `width`
-      - `height`
-- 表单与界面设计 **` 掌握`**
-	- 表单 `form` 
-      - `autocomplete`
-      - `novalidate` 
-      - `name` 
-      - `method`
-      - `action`
-    - `input`
-      - `autocomplete`
-      - `autofocus`   
-      - `form`
-      - `placeholder`
-      - `height` 
-      - `weight`  
-      - `required`  
-      - `pattern`
-      - `regexp`
-      - `list`
-      - `name`
-      - `type`
-        - `text`
-        - `password`
-        - `button`
-        - `submit`
-        - `reset`
-        - `radio`
-        - `checkbox`
-        - `file`
-        - `email`
-        - `url`
-        - `search`
-        - `telephone`
-        - `calendar`
-        - `date` `month` `week` `time` `datetime` `datetime-local`
-        - `color`
-        - `range` `number` `min` `max` `step`
-	- 列表选择域 `select`
-      - `name`
-      - `size`
-      - `option`
-      - `selected`
-	- 多行文本框 `textarea`
-      - `name`
-      - `rows`
-      - `cols`
-	- 控件说明
-      - `label`
-      - `fieldset`
-      - `legend`
-	- 新表单元素：
-      - `datalist`
-      - `keygen`
-      - `output`
-	- 对 `input` 元素新加的 `form` `overrides` 属性
-      - `formaction`
-      - `formenctype`
-      - `formmethod`
-      - `formnovalidate`
-      - `formtarget`
+  - `html` 实体
+    - `&nbsp;`
+    - `&gt;`
+    - `&lt;`
+    - `&amp;`
+- 嵌入对象 **`掌握`**
+  - 锚点 `a`
+    - `href`
+    - `url`
+    - `target`
+    - 站点链接
+    - 页面中指定位置链接
+    - 邮件链接
+    - 图像链接
+  - 图像 `img`
+    - `src`
+    - `alt`
+    - `title`
+    - `width`
+    - `height`
+    - `border`
+    - `align`
+    - 常用图像格式
+     - `JPEG`
+     - `GIF`
+     - `PNG`
+  - 表格 `table`
+    - `tr`
+    - `td`
+    - `th`
+    - `thead`
+    - `tbody`
+    - `tfoot`
+   - `caption
+  - 滚动字幕
+  - 音频视频
+    - `audio`
+    - `video`
+- 框架与布局设计 **`掌握`**
+  - 框架集与框架 `frameset`
+    - `cols`
+    - `rows`
+    - `border`
+    - `bordercolor`
+    - `frame`
+    - `src`
+  - 内联框架 `iframe`
+    - `src`
+    - `name`
+    - `width`
+    - `height`
+- 表单与界面设计 **`掌握`**
+  - 表单 `form` 
+    - `autocomplete`
+    - `novalidate` 
+    - `name` 
+    - `method`
+    - `action`
+  - 输入控件 `input`
+    - `autocomplete`
+    - `autofocus`   
+    - `form`
+    - `placeholder`
+    - `height` 
+    - `weight`  
+    - `required`  
+    - `pattern`
+    - `regexp`
+    - `list`
+    - `name`
+    - `type` 属性
+      - `text`
+      - `password`
+      - `button`
+      - `submit`
+      - `reset`
+      - `radio`
+      - `checkbox`
+      - `file`
+      - `email`
+      - `url`
+      - `search`
+      - `telephone`
+      - `calendar`
+      - `date` `month` `week` `time` `datetime` `datetime-local`
+      - `color`
+      - `range` `number` `min` `max` `step`
+  - 列表选择域 `select`
+    - `name`
+    - `size`
+    - `option`
+    - `selected`
+  - 多行文本框 `textarea`
+    - `name`
+    - `rows`
+    - `cols`
+  - 控件说明
+    - `label`
+    - `fieldset`
+    - `legend`
+  - 新表单元素：
+    - `datalist`
+    - `keygen`
+    - `output`
+  - 对 `input` 元素新加的 `form` `overrides` 属性
+    - `formaction`
+    - `formenctype`
+    - `formmethod`
+    - `formnovalidate`
+    - `formtarget`
 - `HTML5` 其他新标签：
-   - `article`
-   - `header`
-   - `footer`
-   - `nav`
-   - `section`
-   - `aside`
-   - `bdi`
-   - `command`
-   - `details` `summary`
-   - `dialog`
-   - `embed`
-   - `figure` `figcaption`
-   - `keygen`
-   - `mark`
-   - `meter`
-   - `progress`
-   - `rp`
-   - `rt`
-   - `ruby`
-   - `time`
-   - `track`
+  - `article`
+  - `header`
+  - `footer`
+  - `nav`
+  - `section`
+  - `aside`
+  - `bdi`
+  - `command`
+  - `details` `summary`
+  - `dialog`
+  - `embed`
+  - `figure` `figcaption`
+  - `keygen`
+  - `mark`
+  - `meter`
+  - `progress`
+  - `rp`
+  - `rt`
+  - `ruby`
+  - `time`
+  - `track`
 - `HTML5` 新加的全局属性：
-   - `contenteditable`
-   - `contextmenu`
-   - `draggable`
-   - `dropzone`
-   - `hidden`
-   - `spellcheck`
-   - `translate`
+  - `contenteditable`
+  - `contextmenu`
+  - `draggable`
+  - `dropzone`
+  - `hidden`
+  - `spellcheck`
+  - `translate`
 
 ### 3. `CSS` 样式表设计
 - `CSS` 样式表基础知识 **` 掌握`**
-	- `CSS` 起因及作用
-	- `CSS` 类型及层叠次序
-	- `CSS` 语法规则
+  - `CSS` 起因及作用
+  - `CSS` 类型及层叠次序
+- `CSS` 语法规则
 选择符 {属性 : 值 ;  …} 
 注释、空格及大小写、选择符分组、子元素继承
 - `CSS` 样式表基本语法 **` 了解`**
