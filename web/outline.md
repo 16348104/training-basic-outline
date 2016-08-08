@@ -337,11 +337,11 @@
       - 多行注释 `/*……*/`
 - 系统提供的常用函数
 	- 输入输出函数（对象方法） **` 掌握`**
-      - `window`.`alert` 消息对话框
-      - `window`.`confirm` 确认对话框
-      - `window`.`prompt` 输入对话框
-      - `document`.`write` 输出文本
-      - 注：由于`window` 是顶层对象，使用时可省
+      - `window.alert` 消息对话框
+      - `window.confirm` 确认对话框
+      - `window.prompt` 输入对话框
+      - `document.write` 输出文本
+      - 注：由于 `window` 是顶层对象，使用时可省
 	- 字符串分析函数 **` 较高要求`**
       - `eval` 计算字符串表达式值
       - `parseInt` 转换不同进制的数
@@ -350,15 +350,15 @@
 - 用户自定义函数 **` 较高要求`**
 - 基于面向对象的程序设计 **` 掌握`**
 	- `JavaScript` 事件及事件处理属性
-    -`click`
-    -`dbclick`
-    - `mouseover`
-    - `mouseout`
-    - `focus`
-    - `blur`
-    - `submit`
-    - `reset`
-    - `load`
-    - `unload`
+      -`click`
+      -`dbclick`
+      - `mouseover`
+      - `mouseout`
+      - `focus`
+      - `blur`
+      - `submit`
+      - `reset`
+      - `load`
+      - `unload`
 - `on` 事件名 = 事件处理函数(或`JavaScript` 语句) 
 	- 表单验证
