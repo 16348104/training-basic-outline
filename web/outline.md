@@ -2,20 +2,23 @@
 
 
 ### 1. 网页设计开发环境与工具
-- `Dreamware` 工具
+- `WebStrom` 集成开发环境
 	- 系统安装与配置 **` 了解`**
-	- 新建普通`HTML` 文件、`JS` 文件、`CSS` 文件、框架集文件 **` 掌握`**
-	- 源程序编辑窗口的使用 **` 掌握`**
-	- 可视化设计窗口的使用 **` 掌握`**
-	- 可视化`CSS` 窗口的使用 **` 掌握`**
-	- 站点设计及站点与资源管理器 **` 掌握`**
+	- 新建普通`HTML` 文件、`JS` 文件、`CSS` 文件 **` 掌握`**
+	- 编辑窗口的使用 **` 掌握`**
+	- 快捷键 **` 掌握`**
 - 普通文本编辑工具
-	- `UltraEdit` 工具或其他文本编辑工具编辑网页设计文件（.`html`,.`js`,.`css`） **` 掌握`**
+	- `Notepad++` 工具或其他文本编辑工具编辑网页设计文件 **` 掌握`**
 
 ### 2. `HTML` 语言编程
 - `HTML` 语言基础知识 **` 掌握`**
 	- `HTML` 语言简介
-	- `HTML` 语法基础（标签、属性、元素、文档、注释）
+	- `HTML` 语法基础
+      - 标签
+      - 属性
+      - 元素
+      - 文档
+      - 注释
 - `HTML` 编程基础 **` 掌握`**
 	- `HTML` 文档基本结构
       - `!DOCTYPE`
@@ -43,22 +46,30 @@
       - `sup`
       - `sub`
 	- 列表
-      - 无序列表 `ul` `type`= …  `li` … /`ul`
-      - 有序列表 `ol` `type` = … `start` = …  	  `li` …   /`ol`
-      - `dl``dt``dd`…/`dd`/`dt`/`dl`
+      - `ul`
+      - `type`
+      - `li`
+      - `ol`
+      - `type`
+      - `start`
+      - `li`
+      - `ol`
+      - `dl`
+      - `dt`
+      - `dd`
+      - `dt`
 	- 特殊符号(`html` 实体)
-      - 空格 &`nbsp` 、＞ &`gt` 、＜ &`lt` 、& &`amp`
-
-
-- 插入对象 **` 掌握`**
-	- 插入链接
-      - `a`
-        - `href`
-        - "`url`
-        - `target`
-        - 包括其他站点链接和页面中指定位置链接，邮件链接及图像链接
-	- 插入图像
-      - `img`
+      - `&nbsp;`
+      - `&gt;`
+      - `&lt;`
+      - `&amp;`
+- 嵌入对象 **` 掌握`**
+	- 链接 `a`
+      - `href`
+      - "`url`
+      - `target`
+      - 包括其他站点链接和页面中指定位置链接，邮件链接及图像链接
+	- 图像 `img`
       - `src`
       - `alt`
       - `title`
@@ -67,8 +78,7 @@
       - `border`
       - `align`
       - 常用图像格式：`JPEG`、`GIF`、`PNG` 等
-	- 插入表格
-      - `table`
+	- 插入表格 `table`
       - `tr`
       - `td`
       - `th`
@@ -77,7 +87,7 @@
       - `tfoot`
      - `caption
 	- 滚动字幕
-	- 插入`video` 和`audio`
+	- 音频视频
 	  - `audio`
       - `video`
 - 框架与布局设计 **` 掌握`**
@@ -96,25 +106,25 @@
       - `width`
       - `height`
 - 表单与界面设计 **` 掌握`**
-	- 建立表单
-      - `form` 
-      - `autocomplete`=”`on`/`off`” 
+	- 表单 `form` 
+      - `autocomplete`
       - `novalidate` 
-      - `name`="表单名" 
-      - `method`="`get`/`post`" 
-      - `action`="`URL`"
-    - `input` 标签
-      - `autocomplete`=”`on`/`off`”  
+      - `name` 
+      - `method`
+      - `action`
+    - `input`
+      - `autocomplete`
       - `autofocus`   
-      - `form`=”表单`ID`”  
-      - `placeholder`=”文字” 
-      - `height`=”数值” 
-      - `weight`=”数值”  
+      - `form`
+      - `placeholder`
+      - `height` 
+      - `weight`  
       - `required`  
-      - `pattern` (`regexp`) 
-      - `list`=”`datalist` 的`id`” 
-      - `name`="控件名" 
-      - `type`="控件类型" 
+      - `pattern`
+      - `regexp`
+      - `list`
+      - `name`
+      - `type`
         - `text`
         - `password`
         - `button`
@@ -128,9 +138,9 @@
         - `search`
         - `telephone`
         - `calendar`
-        - `date`/`month`/`week`/`time`/`datetime`/`datetime`-`local`
+        - `date` `month` `week` `time` `datetime` `datetime-local`
         - `color`
-        - `range`/`number`  `min`=”数字”  `max`=”数字”  `step`=”数字”
+        - `range` `number` `min` `max` `step`
 	- 列表选择域 `select`
       - `name`
       - `size`
