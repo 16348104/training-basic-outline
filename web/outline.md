@@ -200,57 +200,117 @@
   - `CSS` 起因及作用
   - `CSS` 类型及层叠次序
 - `CSS` 语法规则
-选择符 {属性 : 值 ;  …} 
-注释、空格及大小写、选择符分组、子元素继承
+  - 选择符 {属性 : 值 ;  …} 
+  - 注释、空格及大小写、选择符分组、子元素继承
 - `CSS` 样式表基本语法 **` 了解`**
 	- 内联式样式表（位于`body`和/`body`之间）
- 选择符 `style`= “ 属性1: 值1; 属性2: 值2;  …” 
+       - 选择符 `style`= “ 属性1: 值1; 属性2: 值2;  …” 
 	- 文档级样式表（位于`head`和/`head`之间，对整个网页有效）
-`style` `type`=”`text`/`css`”
-	选择符 {属性1: 值1; 属性2: 值2; …}    …
+      - `style` `type`=”`text`/`css`”
+      - 选择符 {属性1: 值1; 属性2: 值2; …}    …
 /`style`
 	- 外部样式表（.`css` 文件）
-引用：`link` `rel`="`stylesheet`"  `type`=”`text`/`css`”  `href`=”样式表路径” 
-引用：`style` `type`=”`text`/`css`”  @`import` `url`(样式表路径);  /`style`
+      - 引用：`link` `rel`="`stylesheet`"  `type`=”`text`/`css`”  `href`=”样式表路径” 
+      - 引用：`style` `type`=”`text`/`css`”  @`import` `url`(样式表路径);  /`style`
 	- 类选择符和`ID` 选择符的应用
 - `CSS` 样式表属性及应用 **` 了解`**
 	- 字体属性
-`font` 、`font`-`family` 、`font`-`size` 、`font`-`style` 、`ont`-`weight`
+      - `font`
+      - `font-family`
+      - `font-size`
+      - `font-style`
+      - `font-weight`
 	- 文本修饰属性
-`text`-`indent` 、`text`-`align` 、`text`-`decoration`
-`word`-`spacing` 、 `line`-`height`
+      - `text-indent`
+      - `text-align`
+      - `text-decoration`
+      - `word-spacing`
+      - `line-height`
 	- 颜色与背景属性
-`color` 、 `background`-`image`
+      - `color`
+      - `background-image`
 	- 边框与滚动条属性
-`border`-`color` 、 `border`-`width` 、 `border`-`style`
+      - `border-color`
+      - `border-width`
+      - `border-style`
 	- 链接显示属性
-`a`:`link` 、 `a`:`visited` 、 `a`:`hover` 、 `a`:`active`
+      - `a:link`
+      - `a:visited`
+      - `a:hover`
+      - `a:active`
 	- 定位属性
-`position` 、`left` 和`top`、`width` 和`height` 、`overflow`
+      - `position`
+        - `left`
+        - `top`
+      - `width`
+      - `height`
+      - `overflow`
 - `CSS` 滤镜功能 **` 了解`**
- (5)`CSS`3新特性 **` 掌握`**
+- `CSS3` 新特性 **` 掌握`**
 	- `CSS`3 边框
-`border`-`radius`、`box`-`shadow`、`border`-`image`
-	- `CSS`3 背景
-`background`-`size`、`background`-`origin`、`background`-`clip`
-多个背景图像: `background`-`image`:`url`(`bg`_`flower`.`gif`),`url`(`bg`_`flower`_2.`gif`);
+      - `border`-`radius`
+      - `box`-`shadow`
+      - `border`-`image`
+	- `CSS3` 背景
+      - `background-size`
+      - `background-origin`
+      - `background-clip`
+      - 多个背景图像: `background-image`
 	- 文本属性
-`hanging`-`punctuation`、`punctuation`-`trim`、`text`-`align`-`last`	、`text`-`emphasis`、`text`-`justify`、`text`-`outline`、`text`-`overflow`、`text`-`shadow`、`text`-`wrap`、`word`-`break`、`word`-`wrap`
-- `CSS`3高级新特性 **` 较高要求`**
+      - `hanging-punctuation`
+      - `punctuation-trim`
+      - `text-align-last`
+      - `text-emphasis`
+      - `text-justify`
+      - `text-outline`
+      - `text-overflow`
+      - `text-shadow`
+      - `text-wrap`
+      - `word-break`
+      - `word-wrap`
+- `CSS3` 高级新特性 **` 较高要求`**
 	- 字体
-@`font`-`face`
-	- 2`D` 转换
-`translate`()、`rotate`()、`scale`()、`skew`()、`matrix`()
-	- 3`D` 转换
-`rotateX`()、`rotateY`()
-	- 过渡属性
-`Transition`、`transition`-`property`、`transition`-`duration`、`transition`-`timing`-`function`	、`transition`-`delay`
-	- `CSS`3 动画
-@`keyframes`、`animation`
+      - @`font`-`face`
+	- `2D` 转换
+      - `translate`
+      - `rotate`
+      - `scale`
+      - `skew`
+      - `matrix`
+	- `3D` 转换
+      - `rotateX`
+      - `rotateY`
+	- 过渡属性 `Transition`
+      - `transition-property`
+      - `transition-duration`
+      - `transition-timing`-`function`
+      - `transition-delay`
+	- `CSS3` 动画
+      - @`keyframes`
+      - `animation`
 	- 多列属性
-`column`-`count`、`column`-`fill`、`column`-`gap`	、`column`-`rule`	、`column`-`rule`-* `column`-`rule`-`color`、`column`-`rule`-`style`、`column`-`rule`-`width`	、`column`-`span`、`olumn`-`width`、`columns`
-	- `CSS`3 用户界面
-`appearance`、`box`-`sizing`、`icon`、`nav`-`down`、`nav`-`index`	、`nav`-`left`、`nav`-`right`、`nav`-`up`、`outline`-`offset`、`resize`
+      - `column-count`
+      - `column-fill`
+      - `column-gap`
+      - `column-rule`
+      - `column-rule-*` 
+      - `column-rule-color`
+      - `column-rule-style`
+      - `column-rule-width`
+      - `column-span`
+      - `column-width`
+      - `columns`
+	- `CSS3` 用户界面
+      - `appearance`
+      - `box-sizing`
+      - `icon`
+      - `nav-down`
+      - `nav-index`
+      - `nav-left`
+      - `nav-right`
+      - `nav-up`
+      - `outline-offset`
+      - `resize`
 
 ### 4. `JavaScript` 语言编程
 - `JavaScript` 基础知识 **` 掌握`**
