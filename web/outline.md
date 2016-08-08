@@ -203,162 +203,165 @@
   - 选择符 {属性 : 值 ;  …} 
   - 注释、空格及大小写、选择符分组、子元素继承
 - `CSS` 样式表基本语法 **` 了解`**
-	- 内联式样式表（位于`body`和/`body`之间）
-       - 选择符 `style`= “ 属性1: 值1; 属性2: 值2;  …” 
-	- 文档级样式表（位于`head`和/`head`之间，对整个网页有效）
-      - `style` `type`=”`text`/`css`”
-      - 选择符 {属性1: 值1; 属性2: 值2; …}    …
-/`style`
-	- 外部样式表（.`css` 文件）
-      - 引用：`link` `rel`="`stylesheet`"  `type`=”`text`/`css`”  `href`=”样式表路径” 
-      - 引用：`style` `type`=”`text`/`css`”  @`import` `url`(样式表路径);  /`style`
-	- 类选择符和`ID` 选择符的应用
+  - 内联式样式表
+  - 文档级样式表
+  - 全局级样式表
+    - `link`
+    - `style`
+  - 基本选择器
+    - `tag` 选择器
+    - `class` 选择器
+    - `id` 选择器
+  - 复合选择器
+    - 交集选择器
+    - 并集选择器
+    - 派生选择器
 - `CSS` 样式表属性及应用 **` 了解`**
-	- 字体属性
-      - `font`
-      - `font-family`
-      - `font-size`
-      - `font-style`
-      - `font-weight`
-	- 文本修饰属性
-      - `text-indent`
-      - `text-align`
-      - `text-decoration`
-      - `word-spacing`
-      - `line-height`
-	- 颜色与背景属性
-      - `color`
-      - `background-image`
-	- 边框与滚动条属性
-      - `border-color`
-      - `border-width`
-      - `border-style`
-	- 链接显示属性
-      - `a:link`
-      - `a:visited`
-      - `a:hover`
-      - `a:active`
-	- 定位属性
-      - `position`
-        - `left`
-        - `top`
-      - `width`
-      - `height`
-      - `overflow`
+  - 字体属性
+    - `font`
+    - `font-family`
+    - `font-size`
+    - `font-style`
+    - `font-weight`
+  - 文本修饰属性
+    - `text-indent`
+    - `text-align`
+    - `text-decoration`
+    - `word-spacing`
+    - `line-height`
+  - 颜色与背景属性
+    - `color`
+    - `background-image`
+  - 边框与滚动条属性
+    - `border-color`
+    - `border-width`
+    - `border-style`
+  - 链接显示属性
+    - `a:link`
+    - `a:visited`
+    - `a:hover`
+    - `a:active`
+  - 定位属性
+    - `position`
+      - `left`
+      - `top`
+    - `width`
+    - `height`
+    - `overflow`
 - `CSS` 滤镜功能 **` 了解`**
 - `CSS3` 新特性 **` 掌握`**
-	- `CSS`3 边框
-      - `border`-`radius`
-      - `box`-`shadow`
-      - `border`-`image`
-	- `CSS3` 背景
-      - `background-size`
-      - `background-origin`
-      - `background-clip`
-      - 多个背景图像: `background-image`
-	- 文本属性
-      - `hanging-punctuation`
-      - `punctuation-trim`
-      - `text-align-last`
-      - `text-emphasis`
-      - `text-justify`
-      - `text-outline`
-      - `text-overflow`
-      - `text-shadow`
-      - `text-wrap`
-      - `word-break`
-      - `word-wrap`
+  - `CSS`3 边框
+    - `border`-`radius`
+    - `box`-`shadow`
+    - `border`-`image`
+  - `CSS3` 背景
+    - `background-size`
+    - `background-origin`
+    - `background-clip`
+    - 多个背景图像: `background-image`
+  - 文本属性
+    - `hanging-punctuation`
+    - `punctuation-trim`
+    - `text-align-last`
+    - `text-emphasis`
+    - `text-justify`
+    - `text-outline`
+    - `text-overflow`
+    - `text-shadow`
+    - `text-wrap`
+    - `word-break`
+    - `word-wrap`
 - `CSS3` 高级新特性 **` 较高要求`**
-	- 字体
-      - @`font`-`face`
-	- `2D` 转换
-      - `translate`
-      - `rotate`
-      - `scale`
-      - `skew`
-      - `matrix`
-	- `3D` 转换
-      - `rotateX`
-      - `rotateY`
-	- 过渡属性 `Transition`
-      - `transition-property`
-      - `transition-duration`
-      - `transition-timing`-`function`
-      - `transition-delay`
-	- `CSS3` 动画
-      - @`keyframes`
-      - `animation`
-	- 多列属性
-      - `column-count`
-      - `column-fill`
-      - `column-gap`
-      - `column-rule`
-      - `column-rule-*` 
-      - `column-rule-color`
-      - `column-rule-style`
-      - `column-rule-width`
-      - `column-span`
-      - `column-width`
-      - `columns`
-	- `CSS3` 用户界面
-      - `appearance`
-      - `box-sizing`
-      - `icon`
-      - `nav-down`
-      - `nav-index`
-      - `nav-left`
-      - `nav-right`
-      - `nav-up`
-      - `outline-offset`
-      - `resize`
+  - 字体
+    - @`font`-`face`
+  - `2D` 转换
+    - `translate`
+    - `rotate`
+    - `scale`
+    - `skew`
+    - `matrix`
+  - `3D` 转换
+    - `rotateX`
+    - `rotateY`
+  - 过渡属性 `Transition`
+    - `transition-property`
+    - `transition-duration`
+    - `transition-timing`-`function`
+    - `transition-delay`
+  - `CSS3` 动画
+    - @`keyframes`
+    - `animation`
+  - 多列属性
+    - `column-count`
+    - `column-fill`
+    - `column-gap`
+    - `column-rule`
+    - `column-rule-*` 
+    - `column-rule-color`
+    - `column-rule-style`
+    - `column-rule-width`
+    - `column-span`
+    - `column-width`
+    - `columns`
+  - `CSS3` 用户界面
+    - `appearance`
+    - `box-sizing`
+    - `icon`
+    - `nav-down`
+    - `nav-index`
+    - `nav-left`
+    - `nav-right`
+    - `nav-up`
+    - `outline-offset`
+    - `resize`
 
 ### 4. `JavaScript` 语言编程
 - `JavaScript` 基础知识 **` 掌握`**
-	- `JavaScript` 语言概述
-	- `JavaScript` 在网页设计中的作用
+  - `JavaScript` 语言概述
+  - `JavaScript` 在网页设计中的作用
 - `JavaScript` 基础语法 **` 掌握`**
-	- 语句、代码、代码块
-	- 基本数据类型、变量与常量
-	- 常用运算符
-      - 算术运算符
-      - 比较运算符
-      - 逻辑运算符
-      - 字符串运算符
-	- 流程控制语句
-      - 选择语句 `if`
-      - 分支语句 `switch`
-      - 循环语句
-        - `For`
-        - `For-in`
-        - `While`
-        - `do`-`while`
-	- 注释语句
-      - 单行注释 `//`
-      - 多行注释 `/*……*/`
+  - 语句、代码、代码块
+  - 基本数据类型、变量与常量
+  - 常用运算符
+    - 算术运算符
+    - 比较运算符
+    - 逻辑运算符
+    - 字符串运算符
+  - 流程控制语句
+    - 选择语句 `if`
+    - 分支语句 `switch`
+    - 循环语句
+      - `For`
+      - `For-in`
+      - `While`
+      - `do`-`while`
+  - 注释语句
+    - 单行注释 `//`
+    - 多行注释 `/*……*/`
 - 系统提供的常用函数
-	- 输入输出函数（对象方法） **` 掌握`**
-      - `window.alert` 消息对话框
-      - `window.confirm` 确认对话框
-      - `window.prompt` 输入对话框
-      - `document.write` 输出文本
-      - 注：由于 `window` 是顶层对象，使用时可省
-	- 字符串分析函数 **` 较高要求`**
-      - `eval` 计算字符串表达式值
-      - `parseInt` 转换不同进制的数
-      - `parseInt` 将字符串转换为整数
-      - `parseFloat` 将字符串转换为浮点数
+  - 输入输出函数（对象方法） **` 掌握`**
+    - `window.alert` 消息对话框
+    - `window.confirm` 确认对话框
+    - `window.prompt` 输入对话框
+    - `document.write` 输出文本
+    - 注：由于 `window` 是顶层对象，使用时可省
+  - 字符串分析函数 **` 较高要求`**
+    - `eval` 计算字符串表达式值
+    - `parseInt` 转换不同进制的数
+    - `parseInt` 将字符串转换为整数
+    - `parseFloat` 将字符串转换为浮点数
 - 用户自定义函数 **` 较高要求`**
 - 基于面向对象的程序设计 **` 掌握`**
-	- `JavaScript` 事件及事件处理属性
-      -`click`
-      -`dbclick`
-      - `mouseover`
-      - `mouseout`
-      - `focus`
-      - `blur`
-      - `submit`
-      - `reset`
-      - `load`
-      - `unload`
+- `JavaScript` 事件及事件处理属性
+  -`click`
+  -`dbclick`
+  - `mouseover`
+  - `mouseout`
+  - `focus`
+  - `blur`
+  - `submit`
+  - `reset`
+  - `load`
+  - `unload`
 - `on` 事件名 = 事件处理函数(或`JavaScript` 语句) 
-	- 表单验证
+  - 表单验证
