@@ -320,23 +320,45 @@
 	- 语句、代码、代码块
 	- 基本数据类型、变量与常量
 	- 常用运算符
-算术运算符、比较运算符、逻辑运算符、字符串运算符
+      - 算术运算符
+      - 比较运算符
+      - 逻辑运算符
+      - 字符串运算符
 	- 流程控制语句
-选择语句 （`if`）、分支语句 (`switch`)
-循环语句：`For` 语句（`For` `in`）、`While` 语句、`do`-`while` 语句
+      - 选择语句 `if`
+      - 分支语句 `switch`
+      - 循环语句
+        - `For`
+        - `For-in`
+        - `While`
+        - `do`-`while`
 	- 注释语句
-单行注释（//）、多行注释（/*……*/）
+      - 单行注释 `//`
+      - 多行注释 `/*……*/`
 - 系统提供的常用函数
 	- 输入输出函数（对象方法） **` 掌握`**
-`window`.`alert`() 消息对话框    `window`.`confirm`()  确认对话框
-`window`.`prompt`()输入对话框   `document`.`write`()输出文本
-注：由于`window` 是顶层对象，使用时可省。如：`window`.`alert`()可写成：`alert`() 
+      - `window`.`alert` 消息对话框
+      - `window`.`confirm` 确认对话框
+      - `window`.`prompt` 输入对话框
+      - `document`.`write` 输出文本
+      - 注：由于`window` 是顶层对象，使用时可省
 	- 字符串分析函数 **` 较高要求`**
-`eval`(`str`)  计算字符串表达式值     `parseInt`(`str`, `radix`) 转换不同进制的数
-`parseInt`(`str`) 将字符串转换为整数   `parseFloat`(`str`)将字符串转换为浮点数
+      - `eval` 计算字符串表达式值
+      - `parseInt` 转换不同进制的数
+      - `parseInt` 将字符串转换为整数
+      - `parseFloat` 将字符串转换为浮点数
 - 用户自定义函数 **` 较高要求`**
 - 基于面向对象的程序设计 **` 掌握`**
 	- `JavaScript` 事件及事件处理属性
-`click`，`dbclick`，`mouseover`，`mouseout`，`focus`，`blur`，`submit`，`reset`，`load`，`unload`
-`on` 事件名 = 事件处理函数(或`JavaScript` 语句) 
+    -`click`
+    -`dbclick`
+    - `mouseover`
+    - `mouseout`
+    - `focus`
+    - `blur`
+    - `submit`
+    - `reset`
+    - `load`
+    - `unload`
+- `on` 事件名 = 事件处理函数(或`JavaScript` 语句) 
 	- 表单验证
