@@ -1,182 +1,203 @@
-# Java SE 教学基本要求
+# 网页设计基础教学基本要求
 
-### 1. Java 语言概述
-- Java 语言简介 **`了解`**
-- Java 程序运行机制与JVM **`理解`**
-- Java 程序类型 **`了解`**
 
-### 2. Java 语言基础
-- 标识符与关键字 **`掌握`**
-	- Java 标识符（用途，命名规则）
-	- Java 关键字
-	- Java 程序中的注释方法（3种）
-- 变量与数据类型 **`掌握`**
-	- Java 数据类型及分类
-	- 基本数据类型
-整型（byte，short，int，long），浮点型（float、double），
-字符型（char），布尔型（Boolean）
-	- 变量及常量的定义与使用
-	- 基本数据类型值间转换
-- 运算符与表达式 **`掌握`**
+### 1. 网页设计开发环境与工具
+- `Dreamware`（`CS`4）工具
+	- 系统安装与配置 **` 了解`**
+	- 新建普通`HTML` 文件、`JS` 文件、`CSS` 文件、框架集文件 **` 掌握`**
+	- 源程序编辑窗口的使用 **` 掌握`**
+	- 可视化设计窗口的使用 **` 掌握`**
+	- 可视化`CSS` 窗口的使用 **` 掌握`**
+	- 站点设计及站点与资源管理器 **` 掌握`**
+- 普通文本编辑工具
+	- `UltraEdit` 工具或其他文本编辑工具编辑网页设计文件（.`html`,.`js`,.`css`） **` 掌握`**
+
+### 2. `HTML` 语言编程
+- `HTML` 语言基础知识 **` 掌握`**
+	- `HTML` 语言简介
+	- `HTML` 语法基础（标签、属性、元素、文档、注释）
+- `HTML` 编程基础 **` 掌握`**
+	- `HTML` 文档基本结构
+<!`DOCTYPE` `HTML`> <`HTML`>、<`HEAD`>、<`TITLE`>、<`META`>、<`BODY`>
+	- 段落
+ 段落<`p`>、换行<`br`>、<`wbr`>、分割线<`hr`>
+	- 标题 （ <`h`1> ~ <`h`6> ）
+	- 字体设置
+	- 文字修饰 
+粗体 <`b`> 、斜体 <`i`> 、下划线 <`u`> 、 删除线 <`s`> 
+大字体 <`big`> 、小字体 <`small`> 、 上标 <`sup`> 、下标 <`sub`>
+	- 列表
+无序列表 <`ul` `type`= …>  <`li`> … </`ul`>
+有序列表 <`ol` `type` = … `start` = … > 	  <`li`> …   </`ol`>
+<`dl`><`dt`><`dd`>…</`dd`></`dt`></`dl`>
+	- 特殊符号(`html` 实体)
+空格 &`nbsp` 、＞ &`gt` 、＜ &`lt` 、& &`amp`
+
+
+- 插入对象 **` 掌握`**
+	- 插入链接
+<`a`  `href` = "`url`" `target`=  … >     </`a`>
+包括其他站点链接和页面中指定位置链接，邮件链接及图像链接。
+	- 插入图像
+<`img`  `src`=  `alt`=  `title`=  `width` =  `height` =  `border`=  `align` = …>
+常用图像格式：`JPEG`、`GIF`、`PNG` 等
+	- 插入表格
+<`table`>……</`table`>
+<`tr`>……</`tr`>     <`td`>……</`td`>    <`th`>……</`th`>
+<`thead`></`thead`>,
+<`tbody`></`tbody`>,
+<`tfoot`></`tfoot`>,
+     <`caption`></`caption`>,
+	- 滚动字幕
+
+	- 插入`video` 和`audio`:
+	- <`audio`></`audio`>,<`video`></`video`>
+
+- 框架与布局设计 **` 掌握`**
+	- 框架集与框架
+<`frameset`  `cols`=… / `rows` =…  `border`=… `bordercolor`=…> … </`framset`>
+<`frame`  `src`=… >
+	- 内联框架（窗口）
+<`iframe` `src`=… `name`=… `width`… `height`=…> …  </`iframe`>
+
+- 表单与界面设计 **` 掌握`**
+	- 建立表单
+<`form` `autocomplete`=”`on`/`off`” `novalidate` `name`="表单名" `method`="`get`/`post`" `action`="`URL`"> … </`form`>
+	- 表单控件（单行输入域）-`input` 标签
+	<`input` `autocomplete`=”`on`/`off`”  `autofocus`   `form`=”表单`ID`”  `placeholder`=”文字” `height`=”数值” `weight`=”数值”  `required`  `pattern` (`regexp`) `list`=”`datalist` 的`id`” `name`="控件名" `type`="控件类型" … >
+`type`= `text` / `password` / `button` / `submit` / `reset` / `radio` / `checkbox` / `file`
+`type`=`email`/`url`/`search`/`telephone`/`url`
+`type`=`calendar`
+`type`=`date`/`month`/`week`/`time`/`datetime`/`datetime`-`local`
+`type`=`color`
+`type`=`range`/`number`  `min`=”数字”  `max`=”数字”  `step`=”数字”；
+	- 表单控件（列表选择域）-`select` 标签
+<`select` `name`=”控件名” `size`="`value`">
+	<`option` … >… </`option`>  	<`option` … > …</`option`> …
+</`select`>
+	- 表单控件（多行文本框）-`textarea` 标签
+<`textarea` `name`=”控件名” `rows`="`value`" `cols`="`value`" >…</`textarea`>
+	- 控件说明-`label` 标签
+<`label`> 说明文字 </`label`>
+<`fieldset`><`legend`>….</`legend`></`fieldset`>
+
+	- 新表单元素：
+<`datalist`></`datalist`>
+<`keygen`></`keygen`>
+<`output`></`output`>
+
+
+	- 对`input` 元素新加的`form` `overrides` 属性，包括：
+`formaction`, `formenctype`, `formmethod`, `formnovalidate`, `formtarget`
+(6) `HTML`5其他新标签：
+	- <`article`></`article`>,<`header`></`header`>、<`footer`></`footer`>,<`nav`></`nav`>、<`section`></`section`>
+<`aside`>
+<`bdi`>
+<`command`>
+<`details`><`summary`></`summary`></`details`>
+<`dialog`>
+<`embed`>
+<`figure`><`figcaption`></`figcaption`></`figure`>
+<`keygen`>
+<`mark`>
+<`meter`>
+<`progress`>
+<`rp`>
+<`rt`>
+<`ruby`>
+<`time`>
+<`track`>
+(7)   `HTML`5新加的全局属性：
+`contenteditable`：`true` `or` `false`；
+`contextmenu`；
+`draggable`；
+`dropzone`；
+`hidden`；
+`spellcheck`；
+`translate`；
+
+### 3. `CSS` 样式表设计
+- `CSS` 样式表基础知识 **` 掌握`**
+	- `CSS` 起因及作用
+	- `CSS` 类型及层叠次序
+	- `CSS` 语法规则
+选择符 {属性 : 值 ;  …} 
+注释、空格及大小写、选择符分组、子元素继承
+- `CSS` 样式表基本语法 **` 了解`**
+	- 内联式样式表（位于<`body`>和</`body`>之间）
+< 选择符 `style`= “ 属性1: 值1; 属性2: 值2;  …” >
+	- 文档级样式表（位于<`head`>和</`head`>之间，对整个网页有效）
+<`style` `type`=”`text`/`css`”>
+	选择符 {属性1: 值1; 属性2: 值2; …}    …
+</`style`>
+	- 外部样式表（.`css` 文件）
+引用：<`link` `rel`="`stylesheet`"  `type`=”`text`/`css`”  `href`=”样式表路径” >
+引用：<`style` `type`=”`text`/`css`”>  @`import` `url`(样式表路径);  </`style`>
+	- 类选择符和`ID` 选择符的应用
+- `CSS` 样式表属性及应用 **` 了解`**
+	- 字体属性
+`font` 、`font`-`family` 、`font`-`size` 、`font`-`style` 、`ont`-`weight`
+	- 文本修饰属性
+`text`-`indent` 、`text`-`align` 、`text`-`decoration`
+`word`-`spacing` 、 `line`-`height`
+	- 颜色与背景属性
+`color` 、 `background`-`image`
+	- 边框与滚动条属性
+`border`-`color` 、 `border`-`width` 、 `border`-`style`
+	- 链接显示属性
+`a`:`link` 、 `a`:`visited` 、 `a`:`hover` 、 `a`:`active`
+	- 定位属性
+`position` 、`left` 和`top`、`width` 和`height` 、`overflow`
+- `CSS` 滤镜功能 **` 了解`**
+ (5)`CSS`3新特性 **` 掌握`**
+	- `CSS`3 边框
+`border`-`radius`、`box`-`shadow`、`border`-`image`
+	- `CSS`3 背景
+`background`-`size`、`background`-`origin`、`background`-`clip`
+多个背景图像: `background`-`image`:`url`(`bg`_`flower`.`gif`),`url`(`bg`_`flower`_2.`gif`);
+	- 文本属性
+`hanging`-`punctuation`、`punctuation`-`trim`、`text`-`align`-`last`	、`text`-`emphasis`、`text`-`justify`、`text`-`outline`、`text`-`overflow`、`text`-`shadow`、`text`-`wrap`、`word`-`break`、`word`-`wrap`
+- `CSS`3高级新特性 **` 较高要求`**
+	- 字体
+@`font`-`face`
+	- 2`D` 转换
+`translate`()、`rotate`()、`scale`()、`skew`()、`matrix`()
+	- 3`D` 转换
+`rotateX`()、`rotateY`()
+	- 过渡属性
+`Transition`、`transition`-`property`、`transition`-`duration`、`transition`-`timing`-`function`	、`transition`-`delay`
+	- `CSS`3 动画
+@`keyframes`、`animation`
+	- 多列属性
+`column`-`count`、`column`-`fill`、`column`-`gap`	、`column`-`rule`	、`column`-`rule`-* `column`-`rule`-`color`、`column`-`rule`-`style`、`column`-`rule`-`width`	、`column`-`span`、`olumn`-`width`、`columns`
+	- `CSS`3 用户界面
+`appearance`、`box`-`sizing`、`icon`、`nav`-`down`、`nav`-`index`	、`nav`-`left`、`nav`-`right`、`nav`-`up`、`outline`-`offset`、`resize`
+
+### 4. `JavaScript` 语言编程
+- `JavaScript` 基础知识 **` 掌握`**
+	- `JavaScript` 语言概述
+	- `JavaScript` 在网页设计中的作用
+- `JavaScript` 基础语法 **` 掌握`**
+	- 语句、代码、代码块
+	- 基本数据类型、变量与常量
 	- 常用运算符
-算术运算符（+，－，*，/，%，++，--），关系运算符（>，<，>=，<=，!=，= =），逻辑运算符等（ &&，||， ！ ）
-	- 表达式
-表达式计算及运算符优先级等
-	- 语句
-语句分类及Java 程序书写规则（分号、语句块及空格）
-- 程序流程控制 **`掌握`**
-	- if else 语句
-	- switch 语句
-	- for 语句
-	- while 语句 / do while 语句
-- 数组 **`掌握`**
-	- 数组的声明与创建及初始化
-	- 数组的常用操作
-	- 二维数组的实现
-	
-### 3. 面向对象程序设计 - 类与对象
-- 面向对象程序设计基本概念 **`理解`**
-	- 抽象、封装与类，类、对象、属性、方法
-	- 面向对象程序设计方法的优点（可重用性，可扩展性、可管理性）
-- 类的定义与对象创建
-	- Java 程序中的类（系统类与用户自定义类） **`理解`**
-	- 属性定义 **`掌握`**
-	- 方法的定义 **`掌握`**
-	- 方法的重载 **`掌握`**
-	- 对象的创建及初始化（构造函数） **`掌握`**
-	- 构造函数的重载 **`掌握`**
-	- 对象成员的访问
-- 引用数据类型 **`理解`**
-- 类的静态属性与静态方法（static） **`掌握`**
-	- 静态属性（类属性）的定义与使用
-	- 静态方法（类方法）的定义与使用
-	- 静态初始化器
-- 类的组织-包
-	- Java 源程序文件的基本语法 **`理解`**
-package – import – class 定义
-	- 软件包的基本概念 **`理解`**
-	- package 语句 **`掌握`**
-	- import 语句 **`掌握`**
-	- 目录（树）结构与包 **`理解`**
-- 类及成员的访问控制 **`掌握`**
-	- 类的访问控制（public）
-	- 类成员的访问控制（private、protected、public 及默认访问权限）
-- Java API 文档的使用
-	- Java 类库 **`了解`**
-	- 使用Java API 文档 **`掌握`**
-	
-### 4. 面向对象程序设计 – 继承与多态
-- 类的继承
-	- 继承的基本概念 **`理解`**
-	- 属性的继承 **`掌握`**
-	- 方法的继承与方法重写（方法覆盖） **`掌握`**
-	- 继承中的构造函数（构造函数不能继承） **`理解`**
-- 最终类与最终方法 **`掌握`**
-	- 类的保护与最终类定义
-	- 最终方法的概念及定义
-- 多态 **`掌握`**
-	- 方法重写与方法重载实现的多态
-	- 对象引用与多态
-	
-### 5. 面向对象程序设计 – 抽象类与接口
-- 抽象类与抽象方法
-	- 抽象类与抽象方法的概念 **`理解`**
-	- 抽象类的定义及使用 **`掌握`**
-	- 抽象方法的定义及实现 **`掌握`**
-- 接口
-	- 接口的概念与设计 **`理解`**
-	- 接口的定义方法 **`掌握`**
-	- 接口的实现 **`掌握`**
-	
-### 6. Java 语言基础类库
-- Java.lang 包
-	- Object 类 **`了解`**
-	- System 类 **`了解`**
-	- Math 类 **`掌握`**
-	- String 类 **`掌握`**
-	- StringBuffer 类 **`掌握`**
-- java.util 包 **`掌握`**
-	- Arrays 类
-	- Date 类
-	- Calendar 类
-	- Random 类
-- java.text 包 **`掌握`**
-	- SimpleDateFormat 类
-	- DecimalFormat 类
-- 聚集框架
-	- 聚集框架的基本概念 **`理解`**
-	- ArrayList 类 **`掌握`**
-	- Vector 类 **`掌握`**
-	- HashTable 类 **`掌握`**
-- 泛型
-	- 泛型的基本概念 **`理解`**
-	- 聚集类与泛型 **`理解`**
-	- 泛型的定义及应用 **`掌握`**
-- 对象数组 **`掌握`**
-
-### 7.java 程序异常处理
-- 异常及异常类的基本概念 **`理解`**
-- 系统异常类 **`了解`**
-	- 系统异常类的继承关系
-	- 常用系统异常类
-Exception、IOException、NullPointerException、
-SQLException、等
-- 异常的处理机制 **`掌握`**
-	- try/catch 结构（包括多异常处理）
-	- try/finally 结构
-- 自定义异常（异常类的定义、抛出及处理） **`了解`**
-	- 异常类的定义
-	- 自定义异常类的抛出（throw）
-	- 自定义异常类的处理及应用
-- 异常的转移 **`掌握`**
-	- 从方法定义抛出异常（throws）
-	
-### 8.java 程序输入输出
-- 文件操作 **`掌握`**
-	- File 类及其对象的创建
-	- File 类常用方法
-exists、isFile、isDirectory、length、getName、getPath、list、listFiles、delete、mkdir
-	- RandomAccessFile 类及文件随机访问
-- Java 流式输入输出概述
-	- Java.io 包 **`了解`**
-	- 流的基本概念与程序输入输出 **`理解`**
-	- IO 流的类别 **`理解`**
-输入流、输出流、字节流、字符流、节点流、过滤流等
-	- Java io 流的层次 **`理解`**
-- 字节输入流 **`掌握`**
-	- InputStream 类及基本方法
-	- FileInputStream 类
-	- BufferedInputStream 类
-	- DataInputStream 类
-- 字节输出流 **`掌握`**
-	- OutputStream 类及基本方法
-	- FileOutputStream 类
-	- DataOutputStream 类
-	- PrintStream 类
-- 字符输入流 **`掌握`**
-	- Reader 类及基本方法
-	- BufferedReader 类
-	- FileReader 类
-- 字符输出流 **`掌握`**
-	- Writer 类及基本方法
-	- BufferedWriter 类
-	- FileWriter 类
-- IO 应用 - 文件输入输出 **`掌握`**
-- IO 应用 – 标准输入输出 **`掌握`**
-
-### 9.java 多线程编程 **`了解`**
-- 进程与线程的基本概念
-- 线程类及接口
-- 线程的同步与互斥
-
-### 10.Java 程序开发环境与工具
-- JDK 开发工具 **`掌握`**
-	- JDK 基本组成及目录结构
-	- JDK 的下载与安装
-	- JDK 常用命令（javac、java、javadoc、jar）
-- MyEclipse 开发环境 **`掌握`**
-	- MyEclipse 安装与目录结构
-	- MyEclipse 配置
-	- MyEclipse 工作空间
-	- MyEclipse 界面基本使用
-- Log4J 调试工具 **`较高要求`**
+算术运算符、比较运算符、逻辑运算符、字符串运算符
+	- 流程控制语句
+选择语句 （`if`）、分支语句 (`switch`)
+循环语句：`For` 语句（`For` `in`）、`While` 语句、`do`-`while` 语句
+	- 注释语句
+单行注释（//）、多行注释（/*……*/）
+- 系统提供的常用函数
+	- 输入输出函数（对象方法） **` 掌握`**
+`window`.`alert`() 消息对话框    `window`.`confirm`()  确认对话框
+`window`.`prompt`()输入对话框   `document`.`write`()输出文本
+注：由于`window` 是顶层对象，使用时可省。如：`window`.`alert`()可写成：`alert`() 
+	- 字符串分析函数 **` 较高要求`**
+`eval`(`str`)  计算字符串表达式值     `parseInt`(`str`, `radix`) 转换不同进制的数
+`parseInt`(`str`) 将字符串转换为整数   `parseFloat`(`str`)将字符串转换为浮点数
+- 用户自定义函数 **` 较高要求`**
+- 基于面向对象的程序设计 **` 掌握`**
+	- `JavaScript` 事件及事件处理属性
+`click`，`dbclick`，`mouseover`，`mouseout`，`focus`，`blur`，`submit`，`reset`，`load`，`unload`
+`on` 事件名 = 事件处理函数(或`JavaScript` 语句) 
+	- 表单验证
