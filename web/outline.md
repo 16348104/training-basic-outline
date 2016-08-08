@@ -2,7 +2,7 @@
 
 
 ### 1. 网页设计开发环境与工具
-- `Dreamware`（`CS`4）工具
+- `Dreamware` 工具
 	- 系统安装与配置 **` 了解`**
 	- 新建普通`HTML` 文件、`JS` 文件、`CSS` 文件、框架集文件 **` 掌握`**
 	- 源程序编辑窗口的使用 **` 掌握`**
@@ -18,53 +18,52 @@
 	- `HTML` 语法基础（标签、属性、元素、文档、注释）
 - `HTML` 编程基础 **` 掌握`**
 	- `HTML` 文档基本结构
-!`DOCTYPE` `HTML` `HTML`、`HEAD`、`TITLE`、`META`、`BODY`
+      - `!DOCTYPE` `HTML` `HTML`、`HEAD`、`TITLE`、`META`、`BODY`
 	- 段落
- 段落`p`、换行`br`、`wbr`、分割线`hr`
-	- 标题 （ `h`1 ~ `h`6 ）
+      - 段落`p`、换行`br`、`wbr`、分割线`hr`
+	- 标题 （ `h1` ~ `h6` ）
 	- 字体设置
 	- 文字修饰 
-粗体 `b` 、斜体 `i` 、下划线 `u` 、 删除线 `s` 
-大字体 `big` 、小字体 `small` 、 上标 `sup` 、下标 `sub`
+      - 粗体 `b` 、斜体 `i` 、下划线 `u` 、 删除线 `s` 
+      - 大字体 `big` 、小字体 `small` 、 上标 `sup` 、下标 `sub`
 	- 列表
-无序列表 `ul` `type`= …  `li` … /`ul`
-有序列表 `ol` `type` = … `start` = …  	  `li` …   /`ol`
-`dl``dt``dd`…/`dd`/`dt`/`dl`
+      - 无序列表 `ul` `type`= …  `li` … /`ul`
+      - 有序列表 `ol` `type` = … `start` = …  	  `li` …   /`ol`
+      - `dl``dt``dd`…/`dd`/`dt`/`dl`
 	- 特殊符号(`html` 实体)
-空格 &`nbsp` 、＞ &`gt` 、＜ &`lt` 、& &`amp`
+      - 空格 &`nbsp` 、＞ &`gt` 、＜ &`lt` 、& &`amp`
 
 
 - 插入对象 **` 掌握`**
 	- 插入链接
-`a`  `href` = "`url`" `target`=  …      /`a`
+      - `a`  `href` = "`url`" `target`=  …      /`a`
 包括其他站点链接和页面中指定位置链接，邮件链接及图像链接。
 	- 插入图像
-`img`  `src`=  `alt`=  `title`=  `width` =  `height` =  `border`=  `align` = …
-常用图像格式：`JPEG`、`GIF`、`PNG` 等
+      - `img`  `src`=  `alt`=  `title`=  `width` =  `height` =  `border`=  `align` = …
+      - 常用图像格式：`JPEG`、`GIF`、`PNG` 等
 	- 插入表格
-`table`……/`table`
-`tr`……/`tr`     `td`……/`td`    `th`……/`th`
-`thead`/`thead`,
-`tbody`/`tbody`,
-`tfoot`/`tfoot`,
-     `caption`/`caption`,
+      - `table`……/`table`
+      - `tr`……/`tr`     `td`……/`td`    `th`……/`th`
+      - `thead`/`thead`,
+      - `tbody`/`tbody`,
+      - `tfoot`/`tfoot`,
+     - `caption`/`caption`,
 	- 滚动字幕
-
 	- 插入`video` 和`audio`:
-	- `audio`/`audio`,`video`/`video`
+	  - `audio`/`audio`,`video`/`video`
 
 - 框架与布局设计 **` 掌握`**
 	- 框架集与框架
-`frameset`  `cols`=… / `rows` =…  `border`=… `bordercolor`=… … /`framset`
-`frame`  `src`=… 
-	- 内联框架（窗口）
-`iframe` `src`=… `name`=… `width`… `height`=… …  /`iframe`
+      - `frameset`  `cols`=… / `rows` =…  `border`=… `bordercolor`=… … /`framset`
+      - `frame`  `src`=… 
+    - 内联框架（窗口）
+      - `iframe` `src`=… `name`=… `width`… `height`=… …  /`iframe`
 
 - 表单与界面设计 **` 掌握`**
 	- 建立表单
-`form` `autocomplete`=”`on`/`off`” `novalidate` `name`="表单名" `method`="`get`/`post`" `action`="`URL`" … /`form`
+      - `form` `autocomplete`=”`on`/`off`” `novalidate` `name`="表单名" `method`="`get`/`post`" `action`="`URL`" … /`form`
 	- 表单控件（单行输入域）-`input` 标签
-	`input` `autocomplete`=”`on`/`off`”  `autofocus`   `form`=”表单`ID`”  `placeholder`=”文字” `height`=”数值” `weight`=”数值”  `required`  `pattern` (`regexp`) `list`=”`datalist` 的`id`” `name`="控件名" `type`="控件类型" … 
+	  - `input` `autocomplete`=”`on`/`off`”  `autofocus`   `form`=”表单`ID`”  `placeholder`=”文字” `height`=”数值” `weight`=”数值”  `required`  `pattern` (`regexp`) `list`=”`datalist` 的`id`” `name`="控件名" `type`="控件类型" … 
 `type`= `text` / `password` / `button` / `submit` / `reset` / `radio` / `checkbox` / `file`
 `type`=`email`/`url`/`search`/`telephone`/`url`
 `type`=`calendar`
@@ -82,39 +81,37 @@
 `fieldset``legend`…./`legend`/`fieldset`
 
 	- 新表单元素：
-`datalist`/`datalist`
-`keygen`/`keygen`
-`output`/`output`
-
-
+      - `datalist`/`datalist`
+      - `keygen`/`keygen`
+      - `output`/`output`
 	- 对`input` 元素新加的`form` `overrides` 属性，包括：
 `formaction`, `formenctype`, `formmethod`, `formnovalidate`, `formtarget`
-(6) `HTML`5其他新标签：
+- `HTML`5其他新标签：
 	- `article`/`article`,`header`/`header`、`footer`/`footer`,`nav`/`nav`、`section`/`section`
-`aside`
-`bdi`
-`command`
-`details``summary`/`summary`/`details`
-`dialog`
-`embed`
-`figure``figcaption`/`figcaption`/`figure`
-`keygen`
-`mark`
-`meter`
-`progress`
-`rp`
-`rt`
-`ruby`
-`time`
-`track`
-(7)   `HTML`5新加的全局属性：
-`contenteditable`：`true` `or` `false`；
-`contextmenu`；
-`draggable`；
-`dropzone`；
-`hidden`；
-`spellcheck`；
-`translate`；
+    `aside`
+    `bdi`
+    `command`
+    `details``summary`/`summary`/`details`
+    `dialog`
+    `embed`
+    `figure``figcaption`/`figcaption`/`figure`
+    `keygen`
+    `mark`
+    `meter`
+    `progress`
+    `rp`
+    `rt`
+    `ruby`
+    `time`
+    `track`
+- `HTML`5新加的全局属性：
+    `contenteditable`：`true` `or` `false`；
+    `contextmenu`；
+    `draggable`；
+    `dropzone`；
+    `hidden`；
+    `spellcheck`；
+    `translate`；
 
 ### 3. `CSS` 样式表设计
 - `CSS` 样式表基础知识 **` 掌握`**
