@@ -1,4 +1,5 @@
-# <center>网页设计基础教学基本要求</center>
+# <center>网页设计基础</center>
+# <center>教学基本要求</center>
 
 
 ### 1. 网页设计开发环境与工具
