@@ -1,182 +1,168 @@
-# Java SE 教学基本要求
+# <center>Java EE 教学基本要求</center>
 
-### 1. Java 语言概述
-- Java 语言简介 **`了解`**
-- Java 程序运行机制与JVM **`理解`**
-- Java 程序类型 **`了解`**
+### 1. `JSP` 编程基础
+- `JSP` 的隐藏注释 **`掌握`**
+- `JSP` 表达式 **`掌握`**
+- `JSP` 脚本 **`掌握`**
+- `JSP` 声明 **`掌握`**
+- `JSP` 与`Servlet` 的内在关系 **`理解`**
+- `XML` 文件结构和使用 **`理解`**
 
-### 2. Java 语言基础
-- 标识符与关键字 **`掌握`**
-	- Java 标识符（用途，命名规则）
-	- Java 关键字
-	- Java 程序中的注释方法（3种）
-- 变量与数据类型 **`掌握`**
-	- Java 数据类型及分类
-	- 基本数据类型
-整型（byte，short，int，long），浮点型（float、double），
-字符型（char），布尔型（Boolean）
-	- 变量及常量的定义与使用
-	- 基本数据类型值间转换
-- 运算符与表达式 **`掌握`**
-	- 常用运算符
-算术运算符（+，－，*，/，%，++，--），关系运算符（>，<，>=，<=，!=，= =），逻辑运算符等（ &&，||， ！ ）
-	- 表达式
-表达式计算及运算符优先级等
-	- 语句
-语句分类及Java 程序书写规则（分号、语句块及空格）
-- 程序流程控制 **`掌握`**
-	- if else 语句
-	- switch 语句
-	- for 语句
-	- while 语句 / do while 语句
-- 数组 **`掌握`**
-	- 数组的声明与创建及初始化
-	- 数组的常用操作
-	- 二维数组的实现
-	
-### 3. 面向对象程序设计 - 类与对象
-- 面向对象程序设计基本概念 **`理解`**
-	- 抽象、封装与类，类、对象、属性、方法
-	- 面向对象程序设计方法的优点（可重用性，可扩展性、可管理性）
-- 类的定义与对象创建
-	- Java 程序中的类（系统类与用户自定义类） **`理解`**
-	- 属性定义 **`掌握`**
-	- 方法的定义 **`掌握`**
-	- 方法的重载 **`掌握`**
-	- 对象的创建及初始化（构造函数） **`掌握`**
-	- 构造函数的重载 **`掌握`**
-	- 对象成员的访问
-- 引用数据类型 **`理解`**
-- 类的静态属性与静态方法（static） **`掌握`**
-	- 静态属性（类属性）的定义与使用
-	- 静态方法（类方法）的定义与使用
-	- 静态初始化器
-- 类的组织-包
-	- Java 源程序文件的基本语法 **`理解`**
-package – import – class 定义
-	- 软件包的基本概念 **`理解`**
-	- package 语句 **`掌握`**
-	- import 语句 **`掌握`**
-	- 目录（树）结构与包 **`理解`**
-- 类及成员的访问控制 **`掌握`**
-	- 类的访问控制（public）
-	- 类成员的访问控制（private、protected、public 及默认访问权限）
-- Java API 文档的使用
-	- Java 类库 **`了解`**
-	- 使用Java API 文档 **`掌握`**
-	
-### 4. 面向对象程序设计 – 继承与多态
-- 类的继承
-	- 继承的基本概念 **`理解`**
-	- 属性的继承 **`掌握`**
-	- 方法的继承与方法重写（方法覆盖） **`掌握`**
-	- 继承中的构造函数（构造函数不能继承） **`理解`**
-- 最终类与最终方法 **`掌握`**
-	- 类的保护与最终类定义
-	- 最终方法的概念及定义
-- 多态 **`掌握`**
-	- 方法重写与方法重载实现的多态
-	- 对象引用与多态
-	
-### 5. 面向对象程序设计 – 抽象类与接口
-- 抽象类与抽象方法
-	- 抽象类与抽象方法的概念 **`理解`**
-	- 抽象类的定义及使用 **`掌握`**
-	- 抽象方法的定义及实现 **`掌握`**
-- 接口
-	- 接口的概念与设计 **`理解`**
-	- 接口的定义方法 **`掌握`**
-	- 接口的实现 **`掌握`**
-	
-### 6. Java 语言基础类库
-- Java.lang 包
-	- Object 类 **`了解`**
-	- System 类 **`了解`**
-	- Math 类 **`掌握`**
-	- String 类 **`掌握`**
-	- StringBuffer 类 **`掌握`**
-- java.util 包 **`掌握`**
-	- Arrays 类
-	- Date 类
-	- Calendar 类
-	- Random 类
-- java.text 包 **`掌握`**
-	- SimpleDateFormat 类
-	- DecimalFormat 类
-- 聚集框架
-	- 聚集框架的基本概念 **`理解`**
-	- ArrayList 类 **`掌握`**
-	- Vector 类 **`掌握`**
-	- HashTable 类 **`掌握`**
-- 泛型
-	- 泛型的基本概念 **`理解`**
-	- 聚集类与泛型 **`理解`**
-	- 泛型的定义及应用 **`掌握`**
-- 对象数组 **`掌握`**
+### 2. `JSP` 指令  
+- `page` 指令 **`掌握`**
+- `taglib` 指令 **`掌握`**
+- `include` 指令 **`掌握`**
 
-### 7.java 程序异常处理
-- 异常及异常类的基本概念 **`理解`**
-- 系统异常类 **`了解`**
-	- 系统异常类的继承关系
-	- 常用系统异常类
-Exception、IOException、NullPointerException、
-SQLException、等
-- 异常的处理机制 **`掌握`**
-	- try/catch 结构（包括多异常处理）
-	- try/finally 结构
-- 自定义异常（异常类的定义、抛出及处理） **`了解`**
-	- 异常类的定义
-	- 自定义异常类的抛出（throw）
-	- 自定义异常类的处理及应用
-- 异常的转移 **`掌握`**
-	- 从方法定义抛出异常（throws）
-	
-### 8.java 程序输入输出
-- 文件操作 **`掌握`**
-	- File 类及其对象的创建
-	- File 类常用方法
-exists、isFile、isDirectory、length、getName、getPath、list、listFiles、delete、mkdir
-	- RandomAccessFile 类及文件随机访问
-- Java 流式输入输出概述
-	- Java.io 包 **`了解`**
-	- 流的基本概念与程序输入输出 **`理解`**
-	- IO 流的类别 **`理解`**
-输入流、输出流、字节流、字符流、节点流、过滤流等
-	- Java io 流的层次 **`理解`**
-- 字节输入流 **`掌握`**
-	- InputStream 类及基本方法
-	- FileInputStream 类
-	- BufferedInputStream 类
-	- DataInputStream 类
-- 字节输出流 **`掌握`**
-	- OutputStream 类及基本方法
-	- FileOutputStream 类
-	- DataOutputStream 类
-	- PrintStream 类
-- 字符输入流 **`掌握`**
-	- Reader 类及基本方法
-	- BufferedReader 类
-	- FileReader 类
-- 字符输出流 **`掌握`**
-	- Writer 类及基本方法
-	- BufferedWriter 类
-	- FileWriter 类
-- IO 应用 - 文件输入输出 **`掌握`**
-- IO 应用 – 标准输入输出 **`掌握`**
+### 3. `JSP` 隐含对象
+- `OUT` 对象
+  - `print`  **`掌握`**
+  - `println`  **`掌握`**
+  - `clear`  **`了解`**
+  - `flush`  **`了解`**
+  - `close`  **`了解`**
+- `REQUEST` 对象
+  - `getParameter`  **`掌握`**
+  - `setAttribute`  **`掌握`**
+  - `getAttribute`  **`掌握`**
+  - `getParameter` 与`getAttribute` 的区别 **`理解`**
+  - `getRequestDispatcher` .`forward`  **`掌握`**
+- `RESPONSE` 对象
+  - `sendRedirect`  **`掌握`**
+  - `forward` 与`sendRedirect` 转发与重定向的区别 **`理解`**
+- `SESSION` 对象
+  - `setAttribute`  **`掌握`**
+  - `getAttribute`  **`掌握`**
+  - `session` 和`request` 对象的`getAttribute` 方法的区别 **`理解`**
+- `APPLICATION` 对象
+  - `getServletContext`  **`理解`**
+- `EXCEPTION` 对象 **`掌握`**
+  - `JSP` 页面异常信息的处理
+  - `errorPage` 属性
+  - `isErrorPage` 属性
+- `PAGECONTEXT` 对象
+  - `getAttribute`   **`理解`**
+  - `setAttribute`   **`理解`**
+- `PAGE` 对象 **`了解`**
+- `CONFIG` 对象 **`了解`**
 
-### 9.java 多线程编程 **`了解`**
-- 进程与线程的基本概念
-- 线程类及接口
-- 线程的同步与互斥
+### 4. `JSTL` 标签和`EL` 表达式语言
+- `JSTL` 的由来 **`了解`**
+ - `JSTL` 与`EL` 的关系 **`了解`**
+ - `EL` 表达式
+  - `EL` 表达式从四种作用域范围取值的方法 **`了解`**
+  - `EL` 读取表单提交数据的方法 **`了解`**
+  - `EL` 表达式中“.”与“[]”运算符的区别 **`了解`**
+  - `EL` 表达式的算术运算符 **`了解`**
+  - `EL` 表达式的关系运算符 **`了解`**
+  - `EL` 表达式的逻辑运算符 **`了解`**
+- `JSTL` 的`Core` 标签库
+  - <`c` :`forEach` /> **`掌握`**
+  - <`c` :`if` /> **`掌握`**
+  - <`c` :`choose` /> **`理解`**
+  - <`c` :`when` /> **`理解`**
+  - <`c` :`otherwise` /> **`理解`**
+- `Functions` 标签库 **`较高要求`**
+- `Fmt` 标签库 **`较高要求`**
+- 开发自定义标签 **`较高要求`**
 
-### 10.Java 程序开发环境与工具
-- JDK 开发工具 **`掌握`**
-	- JDK 基本组成及目录结构
-	- JDK 的下载与安装
-	- JDK 常用命令（javac、java、javadoc、jar）
-- MyEclipse 开发环境 **`掌握`**
-	- MyEclipse 安装与目录结构
-	- MyEclipse 配置
-	- MyEclipse 工作空间
-	- MyEclipse 界面基本使用
-- Log4J 调试工具 **`较高要求`**
+### 5. 过滤器和监听器
+- 过滤器的生命周期
+  - `init`  **`理解`**
+  - `doFilter`  **`理解`**
+  - `destory`  **`理解`**
+- 过滤器的配置
+  - 在`web` .`xml` 中注册和配置过滤器 **`掌握`**
+  - 配置过滤器的初始化参数 **`掌握`**
+  - 多个过滤器的过滤顺序 **`掌握`**
+  - 一个过滤器对多个资源过滤的配置 **`掌握`**
+- 常用过滤器
+  - 配置编码过滤器 **`掌握`**
+  - 配置权限验证过滤器 **`理解`**
+- 常用监听器
+  - 用于处理会话事件的监听器接口 **`了解`**
+    - `HttpSessionListener` 
+    - `HttpSessionAttributesListener` 
+  - 用于处理`ServletContext` 事件的监听器接口 **`了解`**
+    - `ServletContextListener` 
+    - `ServletContextAttributesListener` 
+### 6. `Servlet` 编程
+- `Servlet` 的运行机制 **`掌握`**
+- `Servlet` 的配置
+  - `Servlet` 的注册 **`掌握`**
+  - `Servlet` 的映射配置 **`掌握`**
+- `Servlet` 的生命周期
+  - `init`  **`理解`**
+  - `service`  **`理解`**
+  - `destory`  **`理解`**	
+- `Servlet` 处理表单提交数据的方式
+  - `doGet`  **`掌握`**
+  - `doPost`  **`掌握`**
+  - `get` 请求和`post` 请求的区别 **`掌握`**
+- `Cookie` 的使用 **`理解`**
+- 会话跟踪
+  - `Session`  `ID`  的使用 **`理解`**
+  - 使用`Session` 进行会话跟踪 **`掌握`**
+    - `setAttribute` 
+    - `getAttribute` 
+    - `removeAttribute` 
+    - `invalidate` 
+    - `isNew` 
+    - `getLastAccessedTime` 
+    - `getMaxInactiveInterval` 
+  - 使用`ServletContext` 进行会话跟踪 **`较高要求`**
+### 7. `JDBC` 编程
+- `JDBC` 种类
+  - 本地`API` 驱动 **`了解`**
+  - 网络协议驱动 **`理解`**
+  - 本地协议驱动 **`了解`**
+- `JDBC` 连接数据库 **`掌握`**
+- 常用`JDBC` 类和方法
+  - 加载数据库驱动`Class` .`forName`  **`掌握`**
+  - 创建数据库连接`DriverManager` .`getConnection`  **`掌握`**
+  - 创建`Statement` 或`PreparedStatement` 对象 **`掌握`**
+  - 执行查询返回结果集`ResultSet` 对象 **`掌握`**
+  - 常用的关闭方法`close`  **`掌握`**
+- 可滚动结果集
+  - `createStatement`  **`理解`**
+  - `ResultSet` 的结果集滚动方法： **`理解`**
+    - `first` 
+    - `last` 
+    - `beforeFirst` 
+    - `afterLast` 
+    - `relative` 
+    - `absoulute` 
+- 可更新结果集
+  - `createStatement`  **`理解`**
+  - `ResultSet` 的结果集更新方法： **`理解`**
+    - `updateType` 
+    - `updateRow` 
+- `JDBC` 调用存储过程 **`理解`**
+- 事务处理
+  - 提交`commit`  **`掌握`**
+    - `setAutoCommit` 
+    - `getAutoCommit` 
+  - 回滚`rollback`  **`掌握`**
+- 批处理
+  - `addBatch`  **`了解`**
+  - `executeBatch`  **`了解`**
+- 操纵`BLOB` /`CLOB` 数据类型 **`较高要求`**
+- 使用`JDBC` 获取元数据 **`了解`**
+
+### 8. `jQuery` 框架
+- `jQuery` 简介 **`了解`**
+- `jQuery` 就绪方法 **`掌握`**
+  - $(`document` ).`ready` (`callback` );
+  - $(`document` ).`ready` (`function` {});
+- `jQuery` 的选择器 **`掌握`**
+- `jQuery` 的事件处理 **`掌握`**
+- `jQuery` 的效果 **`掌握`**
+- `jQuery` 的`HTML` 操作 **`掌握`**
+- `jQuery` 的`AJAX` 实现方式
+  - $.`post`  **`理解`**
+  - $.`get`  **`了解`**
+  - $.`ajax`  **`了解`**
+- 常用的`jQuery` 插件的使用 **`较高要求`**
+
+### 8. `JSON` 
+- `JSON` 的数据结构 **`掌握`**
+- 常用的`JSON` 库 **`掌握`**
