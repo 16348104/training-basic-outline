@@ -189,16 +189,16 @@
 - 文件操作 **`掌握`**
 	- `File` 类及其对象的创建
 	- `File` 类常用方法
-     - `exists`
-     - `isFile`
-     - `isDirectory`
-     - `length`
-     - `getName`
-     - `getPath`
-     - `list`
-     - `listFiles`
-     - `delete`
-     - `mkdir`
+      - `exists`
+      - `isFile`
+      - `isDirectory`
+      - `length`
+      - `getName`
+      - `getPath`
+      - `list`
+      - `listFiles`
+      - `delete`
+      - `mkdir`
 	- `RandomAccessFile` 类及文件随机访问
 - `Java` 流式输入输出概述
 	- `Java.io` 包 **`了解`**

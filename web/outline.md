@@ -22,12 +22,12 @@
 - `HTML` 编程基础 **`掌握`**
   - `HTML` 文档基本结构
     - `!DOCTYPE`
-    - `HTML`
-    - `HTML`
-    - `HEAD`
-    - `TITLE`
-    - `META`
-    - `BODY`
+    - `html`
+    - `html`
+    - `head`
+    - `title`
+    - `meta`
+    - `body`
   - 段落 `p`
     - `br`
     - `wbr`
@@ -196,13 +196,13 @@
   - `translate`
 
 ### 3. `CSS` 样式表设计
-- `CSS` 样式表基础知识 **` 掌握`**
+- `CSS` 样式表基础知识 **`掌握`**
   - `CSS` 起因及作用
   - `CSS` 类型及层叠次序
 - `CSS` 语法规则
   - 选择符 {属性 : 值 ;  …} 
   - 注释、空格及大小写、选择符分组、子元素继承
-- `CSS` 样式表基本语法 **` 了解`**
+- `CSS` 样式表基本语法 **`了解`**
   - 内联式样式表
   - 文档级样式表
   - 全局级样式表
@@ -216,7 +216,7 @@
     - 交集选择器
     - 并集选择器
     - 派生选择器
-- `CSS` 样式表属性及应用 **` 了解`**
+- `CSS` 样式表属性及应用 **`了解`**
   - 字体属性
     - `font`
     - `font-family`
@@ -248,8 +248,8 @@
     - `width`
     - `height`
     - `overflow`
-- `CSS` 滤镜功能 **` 了解`**
-- `CSS3` 新特性 **` 掌握`**
+- `CSS` 滤镜功能 **`了解`**
+- `CSS3` 新特性 **`掌握`**
   - `CSS`3 边框
     - `border`-`radius`
     - `box`-`shadow`
@@ -271,7 +271,7 @@
     - `text-wrap`
     - `word-break`
     - `word-wrap`
-- `CSS3` 高级新特性 **` 较高要求`**
+- `CSS3` 高级新特性 **`较高要求`**
   - 字体
     - @`font`-`face`
   - `2D` 转换
@@ -289,7 +289,7 @@
     - `transition-timing`-`function`
     - `transition-delay`
   - `CSS3` 动画
-    - @`keyframes`
+    - `@keyframes`
     - `animation`
   - 多列属性
     - `column-count`
@@ -316,10 +316,10 @@
     - `resize`
 
 ### 4. `JavaScript` 语言编程
-- `JavaScript` 基础知识 **` 掌握`**
+- `JavaScript` 基础知识 **`掌握`**
   - `JavaScript` 语言概述
   - `JavaScript` 在网页设计中的作用
-- `JavaScript` 基础语法 **` 掌握`**
+- `JavaScript` 基础语法 **`掌握`**
   - 语句、代码、代码块
   - 基本数据类型、变量与常量
   - 常用运算符
@@ -331,27 +331,27 @@
     - 选择语句 `if`
     - 分支语句 `switch`
     - 循环语句
-      - `For`
-      - `For-in`
-      - `While`
+      - `for`
+      - `for-in`
+      - `while`
       - `do`-`while`
   - 注释语句
     - 单行注释 `//`
     - 多行注释 `/*……*/`
 - 系统提供的常用函数
-  - 输入输出函数（对象方法） **` 掌握`**
+  - 输入输出函数（对象方法） **`掌握`**
     - `window.alert` 消息对话框
     - `window.confirm` 确认对话框
     - `window.prompt` 输入对话框
     - `document.write` 输出文本
     - 注：由于 `window` 是顶层对象，使用时可省
-  - 字符串分析函数 **` 较高要求`**
+  - 字符串分析函数 **`较高要求`**
     - `eval` 计算字符串表达式值
     - `parseInt` 转换不同进制的数
     - `parseInt` 将字符串转换为整数
     - `parseFloat` 将字符串转换为浮点数
-- 用户自定义函数 **` 较高要求`**
-- 基于面向对象的程序设计 **` 掌握`**
+- 用户自定义函数 **`较高要求`**
+- 基于面向对象的程序设计 **`掌握`**
 - `JavaScript` 事件及事件处理属性
   -`click`
   -`dbclick`
