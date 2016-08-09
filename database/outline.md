@@ -1,24 +1,24 @@
-# <center>数据库技术基础教学基本要求</center>
+# < `center` >数据库技术基础教学基本要求</ `center` >
 
 ### 1. 数据库系统概论
 - 数据库系统概述
   - 数据库技术的发展过程 **`理解`**
   - 数据库系统组成 **`理解`**
   - 数据库基本概念
-    - Data
-    - Database
-    - DBMS
-    - DBA
+    -  `Data` 
+    -  `Database` 
+    -  `DBMS` 
+    -  `DBA` 
   - 常见的数据库及其特点 **`了解`**
 - 数据模型
-  - 概念（ER）模型 **`理解`**
+  - 概念（ `ER` ）模型 **`理解`**
   - 数据模型 **`理解`**
 
-### 2. MySQL数据库基础
-- MySQL数据库简介 **`了解`**
-- MySQL数据库的安装与配置 **`理解`**
-- MySQL数据库的启动与关闭 **`掌握`**
-- MySQL客户端工具MySQL WorkBench **`了解`**
+### 2.  `MySQL` 数据库基础
+-  `MySQL` 数据库简介 **`了解`**
+-  `MySQL` 数据库的安装与配置 **`理解`**
+-  `MySQL` 数据库的启动与关闭 **`掌握`**
+-  `MySQL` 客户端工具 `MySQL`   `WorkBench`  **`了解`**
 - 用户帐号管理
   - 帐户的创建与维护 **`掌握`**
   - 账户的查询与删除 **`掌握`**
@@ -30,49 +30,49 @@
   - 撤销系统（对象）权限
   - 查看权限的方法
   
-### 3. 结构化查询语言SQL
-- SQL的发展与特点 **`了解`**
+### 3. 结构化查询语言 `SQL` 
+-  `SQL` 的发展与特点 **`了解`**
 	非过程化，独立使用和程序嵌入式使用
-- SQL的作用与分类 **`理解`**
-	DDL/DML/DQL/DCL/TCL
-- SQL语言约定和编程规范 **`掌握`**
-- SQL的基本语法
+-  `SQL` 的作用与分类 **`理解`**
+	 `DDL` / `DML` / `DQL` / `DCL` / `TCL` 
+-  `SQL` 语言约定和编程规范 **`掌握`**
+-  `SQL` 的基本语法
   - 常用数据类型 **`掌握`**
   - 表达式中的运算符 **`掌握`**
-算术运算符/逻辑运算符/比较运算符/SQL比较运算符/字符串连接运算
-  - SQL语言中的函数 **`掌握`**
+算术运算符/逻辑运算符/比较运算符/ `SQL` 比较运算符/字符串连接运算
+  -  `SQL` 语言中的函数 **`掌握`**
 单行函数
 字符函数/数值函数/日期函数/类型转换函数/空值函数
 组函数
-SUM/MAX/MIN/AVG/COUNT
+ `SUM` / `MAX` / `MIN` / `AVG` / `COUNT` 
 - 表的定义与维护
-  - CREATE TABLE **`掌握`**
-  - ALTER TABLE **`掌握`**
-(ADD/MODIFY/DROP/RENAME TO/RENAME COLUNM TO)
-  - DROP TABLE **`掌握`**
+  -  `CREATE`   `TABLE`  **`掌握`**
+  -  `ALTER`   `TABLE`  **`掌握`**
+( `ADD` / `MODIFY` / `DROP` / `RENAME`   `TO` / `RENAME`   `COLUNM`   `TO` )
+  -  `DROP`   `TABLE`  **`掌握`**
 - 数据的维护
-  - INSERT **`掌握`**
-  - UPDATE **`掌握`**
-  - DELETE **`掌握`**
-- 数据的查询（SELECT语句）
-  - DISTINCT **`掌握`**
-  - WHERE子句 **`掌握`**
-  - ORDER BY字句 **`掌握`**
+  -  `INSERT`  **`掌握`**
+  -  `UPDATE`  **`掌握`**
+  -  `DELETE`  **`掌握`**
+- 数据的查询（ `SELECT` 语句）
+  -  `DISTINCT`  **`掌握`**
+  -  `WHERE` 子句 **`掌握`**
+  -  `ORDER`   `BY` 字句 **`掌握`**
   - 表的连接查询 **`掌握`**
 等值连接/不等值连接/外连接/自连接
-SQL语句中的集合处理 **`掌握`**
-UNION/INTERCEPT/EXCEPT
-  - 分组统计GROUP BY/HAVING **`掌握`**
+ `SQL` 语句中的集合处理 **`掌握`**
+ `UNION` / `INTERCEPT` / `EXCEPT` 
+  - 分组统计 `GROUP`   `BY` / `HAVING`  **`掌握`**
   - 子查询 **`掌握`**
 相关子查询/非相关子查询/在其他语句中的使用
-- RDBMS支持的对表的约束及约束的分类
-  - 实体完整性约束PRIMARY KEY **`掌握`**
-  - 引用完整性约束FOREIGN KEY **`掌握`**
-  - 唯一完整性约束UNIQUE **`掌握`**
-  - 非空完整性约束NOT NULL **`掌握`**
+-  `RDBMS` 支持的对表的约束及约束的分类
+  - 实体完整性约束 `PRIMARY`   `KEY`  **`掌握`**
+  - 引用完整性约束 `FOREIGN`   `KEY`  **`掌握`**
+  - 唯一完整性约束 `UNIQUE`  **`掌握`**
+  - 非空完整性约束 `NOT`   `NULL`  **`掌握`**
   - 约束的创建及相关操作 **`掌握`**
   - 列约束/表约束 **`掌握`**
-DISABLE CONSTRAINT[CASCADE]/ENABLE CONSTRAINT
+ `DISABLE`   `CONSTRAINT` [ `CASCADE` ]/ `ENABLE`   `CONSTRAINT` 
   - 查看约束的方式 **`掌握`**
   
 ### 4. 数据库对象
@@ -97,13 +97,13 @@ DISABLE CONSTRAINT[CASCADE]/ENABLE CONSTRAINT
   - 触发器的查看与删除 **`较高要求`**
   
 ### 5. 事务与并发控制
-- 事务的基本概念(ACID) **`理解`**
+- 事务的基本概念( `ACID` ) **`理解`**
 - 事务的操作方式 
-  - 事务的提交COMMIT **`掌握`**
+  - 事务的提交 `COMMIT`  **`掌握`**
 显示提交/自动提交/隐式提交
-  - 事务的回滚ROLLBACK **`掌握`**
+  - 事务的回滚 `ROLLBACK`  **`掌握`**
 显示回滚/隐式回滚；回滚整个事务/回滚部分事务
-  - 事务保留点SAVEPOINT **`掌握`**
+  - 事务保留点 `SAVEPOINT`  **`掌握`**
 -  事务的分类
   - 读写事务的处理 **`掌握`**
   - 只读事务的处理 **`掌握`**
@@ -113,4 +113,4 @@ DISABLE CONSTRAINT[CASCADE]/ENABLE CONSTRAINT
 -  数据库设计的基本原则
   - 三种范式 **`理解`**
 - 数据库的规范化及表的设计
-  - 数据库设计工具PowerDesigner的使用 **`掌握`**
+  - 数据库设计工具 `PowerDesigner` 的使用 **`掌握`**
