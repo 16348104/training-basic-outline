@@ -2,7 +2,7 @@
 
 
 ### 1. 网页设计开发环境与工具
-- `WebStrom` 集成开发环境
+- `WebStorm` 集成开发环境
   - 系统安装与配置 **`了解`**
   - 新建普通`HTML` 文件、`JS` 文件、`CSS` 文件 **`掌握`**
   - 编辑窗口的使用 **`掌握`**
@@ -97,7 +97,6 @@
     - `cols`
     - `rows`
     - `border`
-    - `bordercolor`
     - `frame`
     - `src`
   - 内联框架 `iframe`
