@@ -67,7 +67,7 @@
     - `MODIFY`
     - `DROP`
     - `RENAME TO`
-    - `RENAME COLUNM TO`
+    - `RENAME COLUMN TO`
   - `DROP TABLE`  **`掌握`**
 - 数据的维护
   - `INSERT`  **`掌握`**
