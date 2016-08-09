@@ -1,4 +1,5 @@
-# <center>Java SE 程序设计教学基本要求</center>
+# <center>Java SE 程序设计</center>
+# <center>教学基本要求</center>
 
 ### 1. `Java` 语言概述
 - `Java` 语言简介 **`了解`**

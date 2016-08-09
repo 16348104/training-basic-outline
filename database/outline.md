@@ -1,4 +1,5 @@
-# <center>数据库技术基础教学基本要求</center>
+# <center>数据库技术基础</center>
+# <center>教学基本要求</center>
 
 ### 1. 数据库系统概论
 - 数据库系统概述

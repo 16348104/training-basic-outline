@@ -1,4 +1,5 @@
-# Java SE 教学基本要求
+# <center>轻量级 Java EE 项目综合实训</center>
+# <center>教学基本要求</center>
 
 附件：各类文档模板
 文档1  需求规格说明书                              

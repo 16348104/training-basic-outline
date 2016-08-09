@@ -1,4 +1,5 @@
-# <center>Java EE 程序设计教学基本要求</center>
+# <center>Java EE 程序设计</center>
+# <center>教学基本要求</center>
 
 ### 1. `JSP` 编程基础
 - `JSP` 的隐藏注释 **`掌握`**
