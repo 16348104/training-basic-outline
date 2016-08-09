@@ -1,4 +1,4 @@
-# Java SE 程序设计
+# <center>Java SE 程序设计</center>
 
 ### &sect; 1. 课程教学目标
 
