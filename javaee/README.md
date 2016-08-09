@@ -1,5 +1,5 @@
 
-# <center>Java SE</center>
+# <center>Java EE 程序设计</center>
 
 ### &sect; 1. 课程教学目标
 

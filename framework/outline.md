@@ -1,4 +1,4 @@
-# <center>Java EE 轻量级框架开发技术教学基本要求</center>
+# <center>Java EE 轻量级框架技术教学基本要求</center>
 
 ###  1. `MVC` 设计模式
 - `JSP` 设计模式

@@ -1,4 +1,4 @@
-# <center>Java EE 轻量级框架开发技术</center>
+# <center>Java EE 轻量级框架技术</center>
 
 ### &sect; 1. 课程教学目标
 
