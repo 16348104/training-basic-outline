@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [网页设计基础](web/README.md)
-    * [网页设计基础](web/outline.md)
+    * [网页设计基础教学基本要求](web/outline.md)
 * [Java SE 程序设计](javase/README.md)
     * [Java SE 程序设计教学基本要求](javase/outline.md)
 * [数据库技术基础](database/README.md)
@@ -12,4 +12,4 @@
 * [Java EE 轻量级框架技术](framework/README.md)
     * [Java EE 轻量级框架技术教学基本要求](framework/outline.md)
 * [轻量级 Java EE 项目综合实训](project/README.md)
-    * [轻量级 Java EE 项目综合实训](project/outline.md)
+    * [轻量级 Java EE 项目综合实训教学基本要求](project/outline.md)
