@@ -69,7 +69,7 @@
 - 过滤器的生命周期
   - `init`  **`理解`**
   - `doFilter`  **`理解`**
-  - `destory`  **`理解`**
+  - `destroy`  **`理解`**
 - 过滤器的配置
   - 在`web.xml` 中注册和配置过滤器 **`掌握`**
   - 配置过滤器的初始化参数 **`掌握`**
@@ -94,7 +94,7 @@
 - `Servlet` 的生命周期
   - `init`  **`理解`**
   - `service`  **`理解`**
-  - `destory`  **`理解`**	
+  - `destroy`  **`理解`**	
 - `Servlet` 处理表单提交数据的方式
   - `doGet`  **`掌握`**
   - `doPost`  **`掌握`**
@@ -132,7 +132,7 @@
     - `beforeFirst` 
     - `afterLast` 
     - `relative` 
-    - `absoulute` 
+    - `absolute` 
 - 可更新结果集
   - `createStatement`  **`理解`**
   - `ResultSet` 的结果集更新方法 **`理解`**
