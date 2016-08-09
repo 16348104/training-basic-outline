@@ -1,182 +1,243 @@
-# Java SE 教学基本要求
+# <center>Java EE 轻量级框架开发技术教学基本要求</center>
 
-### 1. Java 语言概述
-- Java 语言简介 **`了解`**
-- Java 程序运行机制与JVM **`理解`**
-- Java 程序类型 **`了解`**
+###  1. `MVC` 设计模式
+- `JSP` 设计模式
+  - `JSP`  `Model` 1架构 **`理解`**
+  - `JSP`  `Model` 2架构 **`理解`**
+- `MVC` 设计模式
+  - `Model`  **`理解`**
+  - `View`  **`理解`**
+  - `Controller`  **`理解`**
+- 常用的`MVC` 设计模式框架
+  - `Struts`  **`理解`**
+  - `WebWork`  **`了解`**
+  - `Struts` 2 **`了解`**
+  
+###  2. `Struts` 基础
+- `Struts` 项目简介 **`了解`**
+- `Struts` 的安装 **`理解`**
+- 开发第一个`Struts` 应用程序 **`掌握`**
 
-### 2. Java 语言基础
-- 标识符与关键字 **`掌握`**
-	- Java 标识符（用途，命名规则）
-	- Java 关键字
-	- Java 程序中的注释方法（3种）
-- 变量与数据类型 **`掌握`**
-	- Java 数据类型及分类
-	- 基本数据类型
-整型（byte，short，int，long），浮点型（float、double），
-字符型（char），布尔型（Boolean）
-	- 变量及常量的定义与使用
-	- 基本数据类型值间转换
-- 运算符与表达式 **`掌握`**
-	- 常用运算符
-算术运算符（+，－，*，/，%，++，--），关系运算符（>，<，>=，<=，!=，= =），逻辑运算符等（ &&，||， ！ ）
-	- 表达式
-表达式计算及运算符优先级等
-	- 语句
-语句分类及Java 程序书写规则（分号、语句块及空格）
-- 程序流程控制 **`掌握`**
-	- if else 语句
-	- switch 语句
-	- for 语句
-	- while 语句 / do while 语句
-- 数组 **`掌握`**
-	- 数组的声明与创建及初始化
-	- 数组的常用操作
-	- 二维数组的实现
-	
-### 3. 面向对象程序设计 - 类与对象
-- 面向对象程序设计基本概念 **`理解`**
-	- 抽象、封装与类，类、对象、属性、方法
-	- 面向对象程序设计方法的优点（可重用性，可扩展性、可管理性）
-- 类的定义与对象创建
-	- Java 程序中的类（系统类与用户自定义类） **`理解`**
-	- 属性定义 **`掌握`**
-	- 方法的定义 **`掌握`**
-	- 方法的重载 **`掌握`**
-	- 对象的创建及初始化（构造函数） **`掌握`**
-	- 构造函数的重载 **`掌握`**
-	- 对象成员的访问
-- 引用数据类型 **`理解`**
-- 类的静态属性与静态方法（static） **`掌握`**
-	- 静态属性（类属性）的定义与使用
-	- 静态方法（类方法）的定义与使用
-	- 静态初始化器
-- 类的组织-包
-	- Java 源程序文件的基本语法 **`理解`**
-package – import – class 定义
-	- 软件包的基本概念 **`理解`**
-	- package 语句 **`掌握`**
-	- import 语句 **`掌握`**
-	- 目录（树）结构与包 **`理解`**
-- 类及成员的访问控制 **`掌握`**
-	- 类的访问控制（public）
-	- 类成员的访问控制（private、protected、public 及默认访问权限）
-- Java API 文档的使用
-	- Java 类库 **`了解`**
-	- 使用Java API 文档 **`掌握`**
-	
-### 4. 面向对象程序设计 – 继承与多态
-- 类的继承
-	- 继承的基本概念 **`理解`**
-	- 属性的继承 **`掌握`**
-	- 方法的继承与方法重写（方法覆盖） **`掌握`**
-	- 继承中的构造函数（构造函数不能继承） **`理解`**
-- 最终类与最终方法 **`掌握`**
-	- 类的保护与最终类定义
-	- 最终方法的概念及定义
-- 多态 **`掌握`**
-	- 方法重写与方法重载实现的多态
-	- 对象引用与多态
-	
-### 5. 面向对象程序设计 – 抽象类与接口
-- 抽象类与抽象方法
-	- 抽象类与抽象方法的概念 **`理解`**
-	- 抽象类的定义及使用 **`掌握`**
-	- 抽象方法的定义及实现 **`掌握`**
-- 接口
-	- 接口的概念与设计 **`理解`**
-	- 接口的定义方法 **`掌握`**
-	- 接口的实现 **`掌握`**
-	
-### 6. Java 语言基础类库
-- Java.lang 包
-	- Object 类 **`了解`**
-	- System 类 **`了解`**
-	- Math 类 **`掌握`**
-	- String 类 **`掌握`**
-	- StringBuffer 类 **`掌握`**
-- java.util 包 **`掌握`**
-	- Arrays 类
-	- Date 类
-	- Calendar 类
-	- Random 类
-- java.text 包 **`掌握`**
-	- SimpleDateFormat 类
-	- DecimalFormat 类
-- 聚集框架
-	- 聚集框架的基本概念 **`理解`**
-	- ArrayList 类 **`掌握`**
-	- Vector 类 **`掌握`**
-	- HashTable 类 **`掌握`**
-- 泛型
-	- 泛型的基本概念 **`理解`**
-	- 聚集类与泛型 **`理解`**
-	- 泛型的定义及应用 **`掌握`**
-- 对象数组 **`掌握`**
+###  3. `Struts` 核心组件
+- 中央控制器`ActionServlet` 
+  - `ActionServlet` 的作用 **`掌握`**
+  - `ActionServlet` 类的`doGet` ()方法和`doPost` ()方法 **`理解`**
+  - `ActionServlet` 类的`process` ()方法 **`理解`**
+  - `Struts` 的`Processor` 类简介 **`理解`**
+  - `ActionServlet` 类在`web` .`xml` 文件中的配置 **`掌握`**
+- `ActionForm` 类
+  - `ActionForm` 类的作用 **`掌握`**
+  - `ActionForm` 类的作用时间 **`掌握`**
+ - `Action` 类/`ActionForward` 类/`ActionMapping` 类
+  - `Action` 类在`Struts` 项目中的作用 **`掌握`**
+  - `Action` 类中的`execute` 方法的具体实现 **`掌握`**
+  - `ActionForward` 类的作用和常用方法 **`掌握`**
+  - `ActionMapping` 类的作用和常用方法 **`掌握`**
+- `Strut` 配置文件`struts` -`config` .`xml` 
+  - `Struts` -`config` .`xml` 配置文件的作用 **`理解`**
+  - `Struts` 配置文件的基本结构 **`理解`**
+  - `Struts` 配置文件的常用元素 **`掌握`**
+  - `Struts` 配置文件的<`form` -`bean` >元素的配置及各属性含义 **`掌握`**
+  - `Struts` 配置文件的<`action` >元素的配置及各属性含义 **`掌握`**
+- `Struts` 各组件与`MVC` 设计模式的各组件的对应关系 **`理解`**
 
-### 7.java 程序异常处理
-- 异常及异常类的基本概念 **`理解`**
-- 系统异常类 **`了解`**
-	- 系统异常类的继承关系
-	- 常用系统异常类
-Exception、IOException、NullPointerException、
-SQLException、等
-- 异常的处理机制 **`掌握`**
-	- try/catch 结构（包括多异常处理）
-	- try/finally 结构
-- 自定义异常（异常类的定义、抛出及处理） **`了解`**
-	- 异常类的定义
-	- 自定义异常类的抛出（throw）
-	- 自定义异常类的处理及应用
-- 异常的转移 **`掌握`**
-	- 从方法定义抛出异常（throws）
-	
-### 8.java 程序输入输出
-- 文件操作 **`掌握`**
-	- File 类及其对象的创建
-	- File 类常用方法
-exists、isFile、isDirectory、length、getName、getPath、list、listFiles、delete、mkdir
-	- RandomAccessFile 类及文件随机访问
-- Java 流式输入输出概述
-	- Java.io 包 **`了解`**
-	- 流的基本概念与程序输入输出 **`理解`**
-	- IO 流的类别 **`理解`**
-输入流、输出流、字节流、字符流、节点流、过滤流等
-	- Java io 流的层次 **`理解`**
-- 字节输入流 **`掌握`**
-	- InputStream 类及基本方法
-	- FileInputStream 类
-	- BufferedInputStream 类
-	- DataInputStream 类
-- 字节输出流 **`掌握`**
-	- OutputStream 类及基本方法
-	- FileOutputStream 类
-	- DataOutputStream 类
-	- PrintStream 类
-- 字符输入流 **`掌握`**
-	- Reader 类及基本方法
-	- BufferedReader 类
-	- FileReader 类
-- 字符输出流 **`掌握`**
-	- Writer 类及基本方法
-	- BufferedWriter 类
-	- FileWriter 类
-- IO 应用 - 文件输入输出 **`掌握`**
-- IO 应用 – 标准输入输出 **`掌握`**
+###  4. `Struts` 国际化处理
+- `Struts` 国际化的含义和作用 **`了解`**
+- 资源文件和资源包
+  - 资源文件的作用 **`理解`**
+  - 资源文件在`struts` -`config` .`xml` 中的配置 **`掌握`**
+  - 不同语言资源文件的命名特点 **`掌握`**
+  - 资源文件的转码实现 **`掌握`**
+  - `native` 2`ascii` 命令的使用 **`掌握`**
+- `Struts` 国际化的实现
+  - `bean` 标记库的基本使用 **`掌握`**
+  - 资源文件的创建和配置 **`掌握`**
+  
+###  5. `Struts` 动态表单验证
+- 普通表单验证的实现
+  - `FormBean` 的`validate` ()方法的重写 **`掌握`**
+  - `ActionErrors` 类的`add` 方法 **`掌握`**
+  - `ActionMessages` 类的使用 **`掌握`**
+  - `Struts` 的`html` 标记在表单验证中的作用 **`掌握`**
+  - 表单验证在`Struts` 配置文件中需要的修改 **`掌握`**
+- `Struts` 动态表单
+  - 动态表单的优点和作用 **`理解`**
+  - `DynaActionFrom` 类 **`掌握`**
+  - 动态表单的配置 **`掌握`**
+- `Struts` 的`Validator` 验证插件的使用
+  - 动态表单与验证插件的关系 **`理解`**
+  - 验证插件类及其在`struts` -`config` .`xml` 中的配置 **`掌握`**
+  - `DynaValidatorForm` 类 **`掌握`**
+  - 使用验证插件时`Action` 类的修改 **`掌握`**
+  - `Validator` -`rules` .`xml` 文件的内容和作用 **`掌握`**
+  - 常用的验证错误信息 **`掌握`**
+  - `Validation` .`xml` 文件和常用元素的配置 **`掌握`**
+  - 使用`Validator` 验证插件的一般步骤 **`理解`**
+  
+###  6. `Struts` 标记库
+- `Struts` 的`html` 标记库
+  - `Html` 标记库中常用标记的使用 **`掌握`**
+  - `Struts` 错误标记的使用 **`掌握`**
+  - 表单标记的使用及<`html` :`form` >标记的特殊作用 **`掌握`**
+- `Struts` 的`bean` 标记库
+  - 消息标记 **`掌握`**
+  - 变量定义标记 **`掌握`**
+  - 显示属性标记 **`掌握`**
+- `Struts` 的`logic` 标记库
+  - 条件逻辑标记 **`掌握`**
+  - 重复逻辑标记 **`掌握`**
+  - 流程控制逻辑标记 **`掌握`**
+- `Struts` 的`tiles` 标记 **`了解`**
 
-### 9.java 多线程编程 **`了解`**
-- 进程与线程的基本概念
-- 线程类及接口
-- 线程的同步与互斥
+###  7. `Struts` 2基础
+- `Struts` 2框架简介 **`了解`**
+- `Struts` 2的安装 **`理解`**
+- 开发第一个`Struts` 2应用程序 **`掌握`**
 
-### 10.Java 程序开发环境与工具
-- JDK 开发工具 **`掌握`**
-	- JDK 基本组成及目录结构
-	- JDK 的下载与安装
-	- JDK 常用命令（javac、java、javadoc、jar）
-- MyEclipse 开发环境 **`掌握`**
-	- MyEclipse 安装与目录结构
-	- MyEclipse 配置
-	- MyEclipse 工作空间
-	- MyEclipse 界面基本使用
-- Log4J 调试工具 **`较高要求`**
+###  8. `Struts` 2进阶
+- `Struts` 2的拦截器 **`较高要求`**
+-  `OGNL` 简介 **`较高要求`**
+
+###  9. `Hibernate` 基础
+- `Hibernate` 项目简介
+  - `ORM` 原理 **`理解`**
+  - `Hibernate` 的`ORM` 实现机制 **`理解`**
+- `Hibernate` 的安装 
+  - `Hibernate` 的常用包 **`理解`**
+-  第一个`Hibernate` 项目
+  - `Hibernate` 常用组件 **`掌握`**
+  - `ORM` 的具体实现 **`理解`**
+  
+###  10. `Hibernate` 核心组件
+-  持久化类
+  - 持久化类的定义 **`了解`**
+  - 持久化类的作用 **`理解`**
+  - 持久化类的生命周期 **`掌握`**
+-  `Hibernate` 配置文件
+  - 配置文件的两种类型 **`理解`**
+  - 配置文件的作用 **`理解`**
+  - 常用的`Hibernate` 配置属性 **`掌握`**
+-  `Hibernate` 的映射文件
+  - 映射文件的作用 **`理解`**
+  - 映射文件的常用元素及其属性的配置 **`掌握`**
+  - 映射文件在`Hibernate` 配置文件中的配置 **`掌握`**
+-  `Hibernate` 的常用类和接口
+  - `Configuration` 类及常用方法 **`掌握`**
+  - `SessionFaction` 接口及常用方法 **`掌握`**
+  - `Session` 接口及常用方法 **`掌握`**
+  - `Query` 接口及常用方法 **`掌握`**
+  - `Transaction` 接口及常用方法 **`掌握`**
+  
+###  11. `Hibernate` 数据查询
+- `HQL` 查询方式
+  - `HQL` 与`SQL` 的本质区别 **`理解`**
+  - 常用查询的`HQL` 实现 **`掌握`**
+  - 命名`HQL` 查询 **`掌握`**
+- `QBC` 查询
+  - `Criteria` 查询方式的特点 **`理解`**
+  - 常用查询的实现 **`掌握`**
+- `Native`  `SQL` 查询
+  - `NativeSQL` 查询的特点 **`理解`**
+  - 命名`NativeSQL` 查询 **`掌握`**
+  
+###  12. `Hibernate` 关联映射
+- 一对一外键关联映射 **`掌握`**
+- 一对一主键关联映射 **`掌握`**
+- 一对多/多对一关联映射 **`掌握`**
+- 第三方表的关联映射 **`掌握`**
+- 单向关联与双向关联 **`掌握`**
+
+###  13. `Hibernate` 缓存与事务
+- 一级`Cache`  **`掌握`**
+- 二级`Cache`  **`掌握`**
+- `Hibernate` 编程式事务管理 **`掌握`**
+- `Hibernate` 声明式事务管理 **`掌握`**
+
+###  14. `Spring` 基础
+- `Spring` 项目简介 **`了解`**
+- 一个`Spring` 入门实例 **`掌握`**
+
+###  15. `Spring` 的`IoC` 实现
+- `IoC` 的概念
+  - `IoC` 的特点 **`理解`**
+  - `IoC` 的三种实现方式及优缺点 **`掌握`**
+  - 控制反转和依赖注入的概念 **`理解`**
+- `Spring` 的`IoC` 的实现
+  - `Spring` 的配置文件的作用 **`理解`**
+  - `IoC` 三种实现方式在`Spring` 中的具体体现 **`掌握`**
+- `Spring` 的核心组件
+  - `Spring` 容器的实例化 **`掌握`**
+  - `Bean` 的实例化 **`掌握`**
+  
+###  16. `Spring` 的`AOP` 实现
+- `AOP` 的基本概念
+  - 切面的概念 **`理解`**
+  - `AOP` 的特点及优点 **`理解`**
+  - `AOP` 的实现种类与`Spring` 的`AOP` 实现 **`掌握`**
+- `Spring` 的通知类型
+  - `Before` 通知 **`较高要求`**
+  - `After` 通知 **`较高要求`**
+  - `Throws` 通知 **`较高要求`**
+- `AOP` 联盟的`Around` 通知 **`较高要求`**
+- `Spring` 的静态切入点
+  - 静态切入点的概念 **`较高要求`**
+  - `NameMatchMethodPointcutAdvisor` 类 **`较高要求`**
+  - `RegexpMethodPointcutAdvisor` 类 **`较高要求`**
+- `Spring` 的动态切入点 **`较高要求`**
+- `Introduction` 
+  - 使用`DelegatingIntroductionInterceptor` 类 **`较高要求`**
+  - 自动代理 **`较高要求`**
+  - `DefaultAdvisorAutoProxyCreator`  **`较高要求`**
+  
+###  17. `Spring` 的数据访问
+- `Spring` 对`DAO` 的支持
+  - `DAO` 的概念 **`理解`**
+  - 一致的异常层次 **`掌握`**
+  - 一致的`DAO` 抽象类 **`掌握`**
+- 在`Spring` 中使用`JDBC` 
+  - 使用`JdbcTemplate`  **`掌握`**
+  - `JDBC` 操作的`Java` 对象化 **`掌握`**
+  
+###  18. `Spring` 与`Hibernate` 的整合
+-  `Spring` 和`Hibernate` 的整合 **`掌握`**
+- `SessionFactory` 的注入 **`掌握`**
+- `HibernateTemplate` 类的常用方法 **`掌握`**
+- `HibernateDAOSupport` 类的常用方法 **`掌握`**
+- `HibernateTemplate` 的分页实现 **`较高要求`**
+
+###  19. `Spring` 事务管理
+- 事务的概念
+  - 编程式事务管理 **`理解`**
+  - 声明式事务管理 **`理解`**
+- `JDBC` 编程事务管理
+  - 使用`TransactionTemplate`  **`掌握`**
+  - 使用`PlatformTransactionManager`  **`掌握`**
+- `JDBC` 声明式事务管理 **`掌握`**
+
+###  20. `Spring` 与`Struts` 的整合
+- `Spring` 与`Struts` 整合
+  - 整合的意义 **`理解`**
+  - 整合的三种基本方式及其优缺点 **`理解`**
+- 使用`DelegatingActionProxy` 类实现整合
+  - `ContextLoaderPlugIn` 类在`Struts` 中的配置 **`掌握`**
+  - `DelegatingActionProxy` 类的作用 **`理解`**
+  - `Spring` 中配置请求和`Action` 类 **`掌握`**
+  - 在`Action` 类中应用`Spring` 的`IoC` 功能 **`掌握`**
+-  使用`DelegatingActionProcessor` 类实现整合 **`理解`**
+-  使用`ActionSupport` 实现整合 **`理解`**
+
+###  21. `Spring` 的`MVC` 框架
+- `SpringWebMVC` 框架的基本构成
+  - `DispatcherServlet` 类的作用 **`理解`**
+- `WebApplicationContext` 
+  - 使用`ContextLoadListener`  **`理解`**
+  - 使用`ContextLoadServlet`  **`理解`**
+  
+###  22. `Spring` 的其他组件应用
+- 在`Spring` 中使用`JavaMail`  **`较高要求`**
+- `SpringRMI` 入门 **`较高要求`**
+
+###  23. `SSH` 项目的整合开发
+- `SSH` 整合项目的基本运行流程 **`掌握`**
+- 在`MyEclipse` 中搭建基于`SSH` 架构的`Web` 应用程序 **`掌握`**
+
