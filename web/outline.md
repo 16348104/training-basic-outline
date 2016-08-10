@@ -171,45 +171,60 @@
   - ~~框架集 `frameset`~~
   - 表单与界面设计 **`掌握`**
     - 表单 `form` 
-      - `autocomplete`
-      - `novalidate` 
+      - `action`
       - `name` 
       - `method`
-      - `action`
+      - `enctype`
+      - `target`
+      - `accept-charset`
+      - `autocomplete`
+      - `novalidate` 
     - 输入控件 `input`
+      - `name`
+      - `value`
+      - `disabled`
+      - `maxlength`
+      - `size`
+      - `placeholder`
       - `autocomplete`
       - `autofocus`   
       - `form`
-      - `placeholder`
       - `height` 
       - `weight`  
       - `required`  
       - `pattern`
       - `regexp`
       - `list`
-      - `name`
       - `type` 属性
-        - `text`
-        - `password`
         - `button`
-        - `submit`
-        - `reset`
-        - `radio`
         - `checkbox`
-        - `file`
-        - `email`
-        - `url`
-        - `search`
-        - `telephone`
-        - `calendar`
-        - `date` `month` `week` `time` `datetime` `datetime-local`
         - `color`
-        - `range` `number` `min` `max` `step`
+        - `date`
+        - `datetime`
+        - `datetime-local`
+        - `email`
+        - `file`
+        - `hidden`
+        - `image`
+        - `month`
+        - `number`
+        - `password`
+        - `radio`
+        - `range`
+        - `reset`
+        - `search`
+        - `submit`
+        - `tel`
+        - `text`
+        - `time`
+        - `url`
+        - `week`
     - 列表选择域 `select`
       - `name`
       - `size`
-      - `option`
       - `selected`
+      - `option`
+      - `optgroup`
     - 多行文本框 `textarea`
       - `name`
       - `rows`
@@ -222,12 +237,6 @@
       - `datalist`
       - `keygen`
       - `output`
-    - 对 `input` 元素新加的 `form` `overrides` 属性
-      - `formaction`
-      - `formenctype`
-      - `formmethod`
-      - `formnovalidate`
-      - `formtarget`
 - `HTML5` 其他新标签：
   - `wbr`
   - `article`
