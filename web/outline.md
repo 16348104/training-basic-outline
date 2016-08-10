@@ -14,46 +14,103 @@
 - `HTML` 语言基础知识 **`掌握`**
   - `HTML` 语言简介
   - `HTML` 语法基础
-    - 标签
-    - 属性
     - 元素
-    - 文档
+      - 空元素
+    - 标记
+      - 起始标记
+      - 结束标记
+    - 属性
+    - 值例
+    - 内容
     - 注释
-- `HTML` 编程基础 **`掌握`**
+      - 条件注释
+- `HTML` 常用元素 **`掌握`**
   - `HTML` 文档基本结构
-    - `!DOCTYPE`
-    - `html`
-    - `html`
+  
+        ```html
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <title>Title</title>
+        </head>
+        <body>
+        
+        </body>
+        </html>     
+        ```
+  
+  - 头部元素
     - `head`
     - `title`
+    - `base`
+    - `link`
     - `meta`
-    - `body`
-  - 段落 `p`
-    - `br`
-    - `wbr`
+    - `script`
+    - `style`
+  - 脚本
+    - `script`
+    - `noscript`
+  - CSS
+    - `style`
+    - `link`
+  - 样式属性
+    - `style`
+  - 标题
+    - `h1` - `h6`
     - `hr`
-  - 标题 `h1` ~ `h6`
-  - 字体设置
-  - 文字修饰 
+  - 段落
+    - `p`
+    - `br`
+    - `pre`
+  - 文本格式
     - `b`
+    - `em`
     - `i`
-    - `u`
-    - `s` 
-    - `big`
     - `small`
-    - `sup`
+    - `strong`
     - `sub`
+    - `sup`
+    - `ins`
+    - `del`
+    - `mark`
+    - ~~`u`~~
+    - ~~`s`~~ 
+    - ~~`big`~~
+  - 引用
+    - `abbr`
+    - `address`
+    - `bdo`
+    - `blockquote`
+    - `cite`
+    - `q`
+  - 代码
+    - `code`
+    - `kbd`
+    - `samp`
+    - `var`
+  - 颜色
+    - `RGB`
+    - `HEX`
   - 列表
     - `ul`
-      - `type`
-      - `li`
+      - `CSS` `list-style-type`
+        - `disc`
+        - `circle`
+        - `square`
+        - `none`
     - `ol`
       - `type`
+        - `1`
+        - `A`
+        - `a`
+        - `I`
+        - `i`
       - `start`
-      - `li`
+    - `li`
     - `dl`
-      - `dt`
-      - `dd`
+    - `dt`
+    - `dd`
   - `html` 实体
     - `&nbsp;`
     - `&gt;`
@@ -62,20 +119,27 @@
 - 嵌入对象 **`掌握`**
   - 锚点 `a`
     - `href`
-    - `url`
     - `target`
+      - `_blank`
+      - `_self`
+      - `_parent`
+      - `_top`
+      - `frame name`
     - 站点链接
-    - 页面中指定位置链接
+    - 书签链接
     - 邮件链接
     - 图像链接
   - 图像 `img`
     - `src`
     - `alt`
     - `title`
-    - `width`
-    - `height`
-    - `border`
-    - `align`
+    - `usemap`
+      - `map`
+      - `area`
+    - ~~`width`~~
+    - ~~`height`~~
+    - ~~`border`~~
+    - ~~`align`~~
     - 常用图像格式
      - `JPEG`
      - `GIF`
@@ -84,86 +148,88 @@
     - `tr`
     - `td`
     - `th`
-    - `thead`
-    - `tbody`
-    - `tfoot`
-   - `caption
-  - 滚动字幕
+    - `caption`
+    - `colspan`
+    - `rowspan`
+    - `border`
+    - `border-collapse`
+    - `border-spacing`
+    - `padding`
+    - `text-align`
+  - 块级与行内元素
+    - `div`
+    - `span`
   - 音频视频
     - `audio`
     - `video`
-- 框架与布局设计 **`掌握`**
-  - 框架集与框架 `frameset`
-    - `cols`
-    - `rows`
-    - `border`
-    - `frame`
-    - `src`
   - 内联框架 `iframe`
-    - `src`
-    - `name`
     - `width`
     - `height`
-- 表单与界面设计 **`掌握`**
-  - 表单 `form` 
-    - `autocomplete`
-    - `novalidate` 
-    - `name` 
-    - `method`
-    - `action`
-  - 输入控件 `input`
-    - `autocomplete`
-    - `autofocus`   
-    - `form`
-    - `placeholder`
-    - `height` 
-    - `weight`  
-    - `required`  
-    - `pattern`
-    - `regexp`
-    - `list`
+    - `src`
     - `name`
-    - `type` 属性
-      - `text`
-      - `password`
-      - `button`
-      - `submit`
-      - `reset`
-      - `radio`
-      - `checkbox`
-      - `file`
-      - `email`
-      - `url`
-      - `search`
-      - `telephone`
-      - `calendar`
-      - `date` `month` `week` `time` `datetime` `datetime-local`
-      - `color`
-      - `range` `number` `min` `max` `step`
-  - 列表选择域 `select`
-    - `name`
-    - `size`
-    - `option`
-    - `selected`
-  - 多行文本框 `textarea`
-    - `name`
-    - `rows`
-    - `cols`
-  - 控件说明
-    - `label`
-    - `fieldset`
-    - `legend`
-  - 新表单元素：
-    - `datalist`
-    - `keygen`
-    - `output`
-  - 对 `input` 元素新加的 `form` `overrides` 属性
-    - `formaction`
-    - `formenctype`
-    - `formmethod`
-    - `formnovalidate`
-    - `formtarget`
+    - `target`
+  - ~~框架集 `frameset`~~
+  - 表单与界面设计 **`掌握`**
+    - 表单 `form` 
+      - `autocomplete`
+      - `novalidate` 
+      - `name` 
+      - `method`
+      - `action`
+    - 输入控件 `input`
+      - `autocomplete`
+      - `autofocus`   
+      - `form`
+      - `placeholder`
+      - `height` 
+      - `weight`  
+      - `required`  
+      - `pattern`
+      - `regexp`
+      - `list`
+      - `name`
+      - `type` 属性
+        - `text`
+        - `password`
+        - `button`
+        - `submit`
+        - `reset`
+        - `radio`
+        - `checkbox`
+        - `file`
+        - `email`
+        - `url`
+        - `search`
+        - `telephone`
+        - `calendar`
+        - `date` `month` `week` `time` `datetime` `datetime-local`
+        - `color`
+        - `range` `number` `min` `max` `step`
+    - 列表选择域 `select`
+      - `name`
+      - `size`
+      - `option`
+      - `selected`
+    - 多行文本框 `textarea`
+      - `name`
+      - `rows`
+      - `cols`
+    - 控件说明
+      - `label`
+      - `fieldset`
+      - `legend`
+    - 新表单元素：
+      - `datalist`
+      - `keygen`
+      - `output`
+    - 对 `input` 元素新加的 `form` `overrides` 属性
+      - `formaction`
+      - `formenctype`
+      - `formmethod`
+      - `formnovalidate`
+      - `formtarget`
 - `HTML5` 其他新标签：
+  - `wbr`
   - `article`
   - `header`
   - `footer`
