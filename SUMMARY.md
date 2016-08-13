@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [网页设计基础](web/README.md)
-    * [网页设计基础教学基本要求](web/outline.md)
+* [前端技术基础](web/README.md)
+    * [前端技术基础教学基本要求](web/outline.md)
 * [Java SE 程序设计](javase/README.md)
     * [Java SE 程序设计教学基本要求](javase/outline.md)
 * [数据库技术基础](database/README.md)
