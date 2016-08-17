@@ -1,4 +1,4 @@
-# <center>轻量级 Java EE 项目综合实训</center>
+# <center>Java EE 项目综合实训</center>
 
 ### &sect; 1. 课程教学目标
 
