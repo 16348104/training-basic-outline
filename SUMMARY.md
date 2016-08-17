@@ -11,5 +11,5 @@
     * [Java EE 程序设计教学基本要求](javaee/outline.md)
 * [Java EE 轻量级框架技术](framework/README.md)
     * [Java EE 轻量级框架技术教学基本要求](framework/outline.md)
-* [轻量级 Java EE 项目综合实训](project/README.md)
-    * [轻量级 Java EE 项目综合实训教学基本要求](project/outline.md)
+* [Java EE 项目综合实训](project/README.md)
+    * [Java EE 项目综合实训教学基本要求](project/outline.md)
