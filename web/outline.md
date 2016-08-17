@@ -159,8 +159,11 @@
   - 块级与行内元素
     - `div`
     - `span`
-  - 音频视频
+  - 媒体
     - `audio`
+    - `embed`
+    - `source`
+    - `track`
     - `video`
   - 内联框架 `iframe`
     - `width`
@@ -179,46 +182,23 @@
       - `accept-charset`
       - `autocomplete`
       - `novalidate` 
-    - 输入控件 `input`
+    - 输入控件 `input` 属性
       - `name`
       - `value`
       - `disabled`
       - `maxlength`
       - `size`
-      - `placeholder`
-      - `autocomplete`
-      - `autofocus`   
-      - `form`
-      - `height` 
-      - `weight`  
-      - `required`  
-      - `pattern`
-      - `regexp`
-      - `list`
-      - `type` 属性
+      - `type` 类型
         - `button`
         - `checkbox`
-        - `color`
-        - `date`
-        - `datetime`
-        - `datetime-local`
-        - `email`
         - `file`
         - `hidden`
         - `image`
-        - `month`
-        - `number`
         - `password`
         - `radio`
-        - `range`
         - `reset`
-        - `search`
         - `submit`
-        - `tel`
         - `text`
-        - `time`
-        - `url`
-        - `week`
     - 列表选择域 `select`
       - `name`
       - `size`
@@ -233,34 +213,30 @@
       - `label`
       - `fieldset`
       - `legend`
-    - 新表单元素：
-      - `datalist`
-      - `keygen`
-      - `output`
-- `HTML5` 其他新标签：
-  - `wbr`
+- `HTML5` 新加语义元素：
   - `article`
-  - `header`
-  - `footer`
-  - `nav`
-  - `section`
   - `aside`
   - `bdi`
-  - `command`
-  - `details` `summary`
+  - `details`
   - `dialog`
-  - `embed`
-  - `figure` `figcaption`
-  - `keygen`
+  - `figcaption`
+  - `figure`
+  - `footer`
+  - `header`
+  - `main`
   - `mark`
+  - `menuitem`
   - `meter`
+  - `nav`
   - `progress`
   - `rp`
   - `rt`
   - `ruby`
+  - `section`
+  - `summary`
   - `time`
-  - `track`
-- `HTML5` 新加的全局属性：
+  - `wbr`
+- `HTML5` 新加全局属性：
   - `contenteditable`
   - `contextmenu`
   - `draggable`
@@ -268,6 +244,41 @@
   - `hidden`
   - `spellcheck`
   - `translate`
+- `HTML5` 新加表单元素：
+  - `datalist`
+  - `keygen`
+  - `output`
+- `HTML5` 新加 `input` `type` 类型
+  - `color`
+  - `date`
+  - `datetime`
+  - `datetime-local`
+  - `email`
+  - `month`
+  - `number`
+  - `range`
+  - `search`
+  - `tel`
+  - `time`
+  - `url`
+  - `week`
+- `HTML5` 新加 `input` 属性 
+  - `autocomplete`
+  - `autofocus`
+  - `form`
+  - `formaction`
+  - `formenctype`
+  - `formmethod`
+  - `formnovalidate`
+  - `formtarget`
+  - `height and width`
+  - `list`
+  - `min and max`
+  - `multiple`
+  - `pattern (regexp)`
+  - `placeholder`
+  - `required`
+  - `step`
 
 ### 3. `CSS` 样式表设计
 - `CSS` 样式表基础知识 **`掌握`**
