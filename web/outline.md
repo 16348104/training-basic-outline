@@ -248,20 +248,6 @@
   - `datalist`
   - `keygen`
   - `output`
-- `HTML5` 新加 `input` `type` 类型
-  - `color`
-  - `date`
-  - `datetime`
-  - `datetime-local`
-  - `email`
-  - `month`
-  - `number`
-  - `range`
-  - `search`
-  - `tel`
-  - `time`
-  - `url`
-  - `week`
 - `HTML5` 新加 `input` 属性 
   - `autocomplete`
   - `autofocus`
@@ -279,6 +265,20 @@
   - `placeholder`
   - `required`
   - `step`
+- `HTML5` 新加 `input` `type` 类型
+  - `color`
+  - `date`
+  - `datetime`
+  - `datetime-local`
+  - `email`
+  - `month`
+  - `number`
+  - `range`
+  - `search`
+  - `tel`
+  - `time`
+  - `url`
+  - `week`
 
 ### 3. `CSS` 样式表设计
 - `CSS` 样式表基础知识 **`掌握`**
