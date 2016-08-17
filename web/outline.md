@@ -285,8 +285,16 @@
   - `CSS` 起因及作用
   - `CSS` 类型及层叠次序
 - `CSS` 语法规则
-  - 选择符 {属性 : 值 ;  …} 
-  - 注释、空格及大小写、选择符分组、子元素继承
+  - 核心基础
+  
+  ```css
+  选择器 {
+    属性: 值;
+  }
+  ```
+  
+  - 注释
+  - 空格及大小写
 - `CSS` 样式表基本语法 **`了解`**
   - 内联式样式表
   - 文档级样式表
@@ -301,7 +309,7 @@
     - 交集选择器
     - 并集选择器
     - 派生选择器
-- `CSS` 样式表属性及应用 **`了解`**
+- `CSS` 样式表常用属性及应用 **`了解`**
   - 字体属性
     - `font`
     - `font-family`
@@ -316,7 +324,7 @@
     - `line-height`
   - 颜色与背景属性
     - `color`
-    - `background-image`
+    - `background`
   - 边框与滚动条属性
     - `border-color`
     - `border-width`
@@ -328,17 +336,19 @@
     - `a:active`
   - 定位属性
     - `position`
+      - `static`
+      - `relative`
+      - `absolute`
+      - `fixed`
       - `left`
       - `top`
-    - `width`
-    - `height`
     - `overflow`
 - `CSS` 滤镜功能 **`了解`**
 - `CSS3` 新特性 **`掌握`**
-  - `CSS`3 边框
-    - `border`-`radius`
-    - `box`-`shadow`
-    - `border`-`image`
+  - `CSS3` 边框
+    - `border-radius`
+    - `box-shadow`
+    - `border-image`
   - `CSS3` 背景
     - `background-size`
     - `background-origin`
@@ -358,7 +368,7 @@
     - `word-wrap`
 - `CSS3` 高级新特性 **`较高要求`**
   - 字体
-    - @`font`-`face`
+    - @`font-face`
   - `2D` 转换
     - `translate`
     - `rotate`
@@ -371,7 +381,7 @@
   - 过渡属性 `Transition`
     - `transition-property`
     - `transition-duration`
-    - `transition-timing`-`function`
+    - `transition-timing-function`
     - `transition-delay`
   - `CSS3` 动画
     - `@keyframes`
@@ -419,7 +429,7 @@
       - `for`
       - `for-in`
       - `while`
-      - `do`-`while`
+      - `do-while`
   - 注释语句
     - 单行注释 `//`
     - 多行注释 `/*……*/`
@@ -438,8 +448,8 @@
 - 用户自定义函数 **`较高要求`**
 - 基于面向对象的程序设计 **`掌握`**
 - `JavaScript` 事件及事件处理属性
-  -`click`
-  -`dbclick`
+  - `click`
+  - `dbclick`
   - `mouseover`
   - `mouseout`
   - `focus`
@@ -448,5 +458,5 @@
   - `reset`
   - `load`
   - `unload`
-- `on` 事件名 = 事件处理函数(或`JavaScript` 语句) 
+- `on` 事件名 = 事件处理函数(或 `JavaScript` 语句) 
   - 表单验证
