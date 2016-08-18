@@ -11,9 +11,9 @@
   - 快捷键 **`掌握`**
 
 ### 2. `HTML` 语言编程
-- `HTML` 语言基础知识 **`掌握`**
-  - `HTML` 语言简介
-  - `HTML` 语法基础
+- `HTML` 语言基础知识
+  - `HTML` 语言简介 **`了解`**
+  - `HTML` 语法基础 **`掌握`**
     - 元素
       - 空元素
     - 标记
@@ -24,8 +24,8 @@
     - 内容
     - 注释
       - 条件注释
-- `HTML` 常用元素 **`掌握`**
-  - `HTML` 文档基本结构
+- `HTML` 常用元素
+  - `HTML` 文档基本结构 **`掌握`**
   
         ```html
         <!DOCTYPE html>
@@ -40,7 +40,7 @@
         </html>     
         ```
   
-  - 头部元素
+  - 头部元素 **`掌握`**
     - `head`
     - `title`
     - `base`
@@ -48,22 +48,22 @@
     - `meta`
     - `script`
     - `style`
-  - 脚本
+  - 脚本 **`掌握`**
     - `script`
     - `noscript`
-  - CSS
+  - CSS **`掌握`**
     - `style`
     - `link`
-  - 样式属性
+  - 样式属性 **`掌握`**
     - `style`
-  - 标题
+  - 标题 **`掌握`**
     - `h1` - `h6`
     - `hr`
-  - 段落
+  - 段落 **`掌握`**
     - `p`
     - `br`
     - `pre`
-  - 文本格式
+  - 文本格式 **`掌握`**
     - `b`
     - `em`
     - `i`
@@ -77,22 +77,22 @@
     - ~~`u`~~
     - ~~`s`~~ 
     - ~~`big`~~
-  - 引用
+  - 引用 **`掌握`**
     - `abbr`
     - `address`
     - `bdo`
     - `blockquote`
     - `cite`
     - `q`
-  - 代码
+  - 代码 **`掌握`**
     - `code`
     - `kbd`
     - `samp`
     - `var`
-  - 颜色
+  - 颜色 **`掌握`**
     - `RGB`
     - `HEX`
-  - 列表
+  - 列表 **`掌握`**
     - `ul`
       - `CSS` `list-style-type`
         - `disc`
@@ -111,13 +111,13 @@
     - `dl`
     - `dt`
     - `dd`
-  - `html` 实体
+  - `html` 实体 **`掌握`**
     - `&nbsp;`
     - `&gt;`
     - `&lt;`
     - `&amp;`
-- 嵌入对象 **`掌握`**
-  - 锚点 `a`
+- 嵌入对象
+  - 锚点 `a` **`掌握`**
     - `href`
     - `target`
       - `_blank`
@@ -129,7 +129,7 @@
     - 书签链接
     - 邮件链接
     - 图像链接
-  - 图像 `img`
+  - 图像 `img` **`掌握`**
     - `src`
     - `alt`
     - `title`
@@ -144,7 +144,7 @@
      - `JPEG`
      - `GIF`
      - `PNG`
-  - 表格 `table`
+  - 表格 `table` **`掌握`**
     - `tr`
     - `td`
     - `th`
@@ -156,24 +156,24 @@
     - `border-spacing`
     - `padding`
     - `text-align`
-  - 块级与行内元素
+  - 块级与行内元素 **`掌握`**
     - `div`
     - `span`
-  - 媒体
+  - 媒体 **`了解`**
     - `audio`
     - `embed`
     - `source`
     - `track`
     - `video`
-  - 内联框架 `iframe`
+  - 内联框架 `iframe` **`了解`**
     - `width`
     - `height`
     - `src`
     - `name`
     - `target`
-  - ~~框架集 `frameset`~~
+  - ~~框架集 `frameset`~~ **`了解`**
   - 表单与界面设计 **`掌握`**
-    - 表单 `form` 
+    - 表单 `form`  **`掌握`**
       - `action`
       - `name` 
       - `method`
@@ -182,7 +182,7 @@
       - `accept-charset`
       - `autocomplete`
       - `novalidate` 
-    - 输入控件 `input` 属性
+    - 输入控件 `input` 属性 **`掌握`**
       - `name`
       - `value`
       - `disabled`
@@ -199,93 +199,94 @@
         - `reset`
         - `submit`
         - `text`
-    - 列表选择域 `select`
+    - 列表选择域 `select` **`掌握`**
       - `name`
       - `size`
       - `selected`
       - `option`
       - `optgroup`
-    - 多行文本框 `textarea`
+    - 多行文本框 `textarea` **`掌握`**
       - `name`
       - `rows`
       - `cols`
-    - 控件说明
+    - 控件说明 **`了解`**
       - `label`
       - `fieldset`
       - `legend`
-- `HTML5` 新加语义元素：
-  - `article`
-  - `aside`
-  - `bdi`
-  - `details`
-  - `dialog`
-  - `figcaption`
-  - `figure`
-  - `footer`
-  - `header`
-  - `main`
-  - `mark`
-  - `menuitem`
-  - `meter`
-  - `nav`
-  - `progress`
-  - `rp`
-  - `rt`
-  - `ruby`
-  - `section`
-  - `summary`
-  - `time`
-  - `wbr`
-- `HTML5` 新加全局属性：
-  - `contenteditable`
-  - `contextmenu`
-  - `draggable`
-  - `dropzone`
-  - `hidden`
-  - `spellcheck`
-  - `translate`
-- `HTML5` 新加表单元素：
-  - `datalist`
-  - `keygen`
-  - `output`
-- `HTML5` 新加 `input` 属性 
-  - `autocomplete`
-  - `autofocus`
-  - `form`
-  - `formaction`
-  - `formenctype`
-  - `formmethod`
-  - `formnovalidate`
-  - `formtarget`
-  - `height and width`
-  - `list`
-  - `min and max`
-  - `multiple`
-  - `pattern (regexp)`
-  - `placeholder`
-  - `required`
-  - `step`
-- `HTML5` 新加 `input` `type` 类型
-  - `color`
-  - `date`
-  - `datetime`
-  - `datetime-local`
-  - `email`
-  - `month`
-  - `number`
-  - `range`
-  - `search`
-  - `tel`
-  - `time`
-  - `url`
-  - `week`
+- `HTML5` 新特性      
+    - `HTML5` 新加语义元素 **`较高要求`**
+      - `article`
+      - `aside`
+      - `bdi`
+      - `details`
+      - `dialog`
+      - `figcaption`
+      - `figure`
+      - `footer`
+      - `header`
+      - `main`
+      - `mark`
+      - `menuitem`
+      - `meter`
+      - `nav`
+      - `progress`
+      - `rp`
+      - `rt`
+      - `ruby`
+      - `section`
+      - `summary`
+      - `time`
+      - `wbr`
+    - `HTML5` 新加全局属性： **`了解`**
+      - `contenteditable`
+      - `contextmenu`
+      - `draggable`
+      - `dropzone`
+      - `hidden`
+      - `spellcheck`
+      - `translate`
+    - `HTML5` 新加表单元素： **`了解`**
+      - `datalist`
+      - `keygen`
+      - `output`
+    - `HTML5` 新加 `input` 属性  **`掌握`**
+      - `autocomplete`
+      - `autofocus`
+      - `form`
+      - `formaction`
+      - `formenctype`
+      - `formmethod`
+      - `formnovalidate`
+      - `formtarget`
+      - `height and width`
+      - `list`
+      - `min and max`
+      - `multiple`
+      - `pattern (regexp)`
+      - `placeholder`
+      - `required`
+      - `step`
+    - `HTML5` 新加 `input` `type` 类型 **`掌握`**
+      - `color`
+      - `date`
+      - `datetime`
+      - `datetime-local`
+      - `email`
+      - `month`
+      - `number`
+      - `range`
+      - `search`
+      - `tel`
+      - `time`
+      - `url`
+      - `week`
 
 ### 3. `CSS` 样式表设计
-- `CSS` 样式表基础知识 **`掌握`**
-  - `CSS` 起因及作用
-  - `CSS` 类型及层叠次序
+- `CSS` 样式表基础知识
+  - `CSS` 起因及作用 **`了解`**
+  - `CSS` 类型及层叠次序 **`了解`**
 - `CSS` 语法规则
-  - 核心基础
+  - 核心基础 **`掌握`**
   
   ```css
   选择器 {
@@ -293,48 +294,48 @@
   }
   ```
   
-  - 注释
-  - 空格及大小写
-- `CSS` 样式表基本语法 **`了解`**
-  - 内联式样式表
-  - 文档级样式表
-  - 全局级样式表
+  - 注释 **`掌握`**
+  - 空格及大小写 **`掌握`**
+- `CSS` 样式表基本语法
+  - 内联式样式表 **`掌握`**
+  - 文档级样式表 **`掌握`**
+  - 全局级样式表 **`掌握`**
     - `link`
     - `style`
-  - 基本选择器
+  - 基本选择器 **`掌握`**
     - `tag` 选择器
     - `class` 选择器
     - `id` 选择器
-  - 复合选择器
+  - 复合选择器 **`掌握`**
     - 交集选择器
     - 并集选择器
     - 派生选择器
-- `CSS` 样式表常用属性及应用 **`了解`**
-  - 字体属性
+- `CSS` 样式表常用属性及应用
+  - 字体属性 **`掌握`**
     - `font`
     - `font-family`
     - `font-size`
     - `font-style`
     - `font-weight`
-  - 文本修饰属性
+  - 文本修饰属性 **`掌握`**
     - `text-indent`
     - `text-align`
     - `text-decoration`
     - `word-spacing`
     - `line-height`
-  - 颜色与背景属性
+  - 颜色与背景属性 **`掌握`**
     - `color`
     - `background`
-  - 边框与滚动条属性
+  - 边框与滚动条属性 **`掌握`**
     - `border-color`
     - `border-width`
     - `border-style`
-  - 链接显示属性
+  - 链接显示属性 **`掌握`**
     - `a:link`
     - `a:visited`
     - `a:hover`
     - `a:active`
-  - 定位属性
+  - 定位属性 **`掌握`**
     - `position`
       - `static`
       - `relative`
@@ -344,17 +345,17 @@
       - `top`
     - `overflow`
 - `CSS` 滤镜功能 **`了解`**
-- `CSS3` 新特性 **`掌握`**
-  - `CSS3` 边框
+- `CSS3` 新特性
+  - `CSS3` 边框 **`了解`**
     - `border-radius`
     - `box-shadow`
     - `border-image`
-  - `CSS3` 背景
+  - `CSS3` 背景 **`了解`**
     - `background-size`
     - `background-origin`
     - `background-clip`
     - 多个背景图像: `background-image`
-  - 文本属性
+  - 文本属性 **`了解`**
     - `hanging-punctuation`
     - `punctuation-trim`
     - `text-align-last`
@@ -366,27 +367,27 @@
     - `text-wrap`
     - `word-break`
     - `word-wrap`
-- `CSS3` 高级新特性 **`较高要求`**
-  - 字体
+- `CSS3` 高级新特性
+  - 字体 **`较高要求`**
     - @`font-face`
-  - `2D` 转换
+  - `2D` 转换 **`较高要求`**
     - `translate`
     - `rotate`
     - `scale`
     - `skew`
     - `matrix`
-  - `3D` 转换
+  - `3D` 转换 **`较高要求`**
     - `rotateX`
     - `rotateY`
-  - 过渡属性 `Transition`
+  - 过渡属性 `Transition` **`较高要求`**
     - `transition-property`
     - `transition-duration`
     - `transition-timing-function`
     - `transition-delay`
-  - `CSS3` 动画
+  - `CSS3` 动画 **`较高要求`**
     - `@keyframes`
     - `animation`
-  - 多列属性
+  - 多列属性 **`较高要求`**
     - `column-count`
     - `column-fill`
     - `column-gap`
@@ -398,7 +399,7 @@
     - `column-span`
     - `column-width`
     - `columns`
-  - `CSS3` 用户界面
+  - `CSS3` 用户界面 **`较高要求`**
     - `appearance`
     - `box-sizing`
     - `icon`
@@ -411,18 +412,18 @@
     - `resize`
 
 ### 4. `JavaScript` 语言编程
-- `JavaScript` 基础知识 **`掌握`**
-  - `JavaScript` 语言概述
-  - `JavaScript` 在网页设计中的作用
-- `JavaScript` 基础语法 **`掌握`**
-  - 语句、代码、代码块
-  - 基本数据类型、变量与常量
-  - 常用运算符
+- `JavaScript` 基础知识
+  - `JavaScript` 语言概述 **`了解`**
+  - `JavaScript` 在网页设计中的作用 **`掌握`**
+- `JavaScript` 基础语法
+  - 语句、代码、代码块 **`掌握`**
+  - 基本数据类型、变量与常量 **`掌握`**
+  - 常用运算符 **`掌握`**
     - 算术运算符
     - 比较运算符
     - 逻辑运算符
     - 字符串运算符
-  - 流程控制语句
+  - 流程控制语句 **`掌握`**
     - 选择语句 `if`
     - 分支语句 `switch`
     - 循环语句
@@ -430,7 +431,7 @@
       - `for-in`
       - `while`
       - `do-while`
-  - 注释语句
+  - 注释语句 **`掌握`**
     - 单行注释 `//`
     - 多行注释 `/*……*/`
 - 系统提供的常用函数
@@ -446,8 +447,8 @@
     - `parseInt` 将字符串转换为整数
     - `parseFloat` 将字符串转换为浮点数
 - 用户自定义函数 **`较高要求`**
-- 基于面向对象的程序设计 **`掌握`**
-- `JavaScript` 事件及事件处理属性
+- 基于面向对象的程序设计
+- `JavaScript` 事件及事件处理属性 **`掌握`**
   - `click`
   - `dbclick`
   - `mouseover`
@@ -458,5 +459,5 @@
   - `reset`
   - `load`
   - `unload`
-- `on` 事件名 = 事件处理函数(或 `JavaScript` 语句) 
-  - 表单验证
+- `on` 事件名 = 事件处理函数(或 `JavaScript` 语句)  **`掌握`**
+- 表单验证 **`掌握`**
