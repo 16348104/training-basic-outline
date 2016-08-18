@@ -18,7 +18,7 @@
 - `JSP` 与`Servlet` 的内在关系 **`理解`**
 - `XML` 文件结构和使用 **`了解`**
 
-### 3. `JSP` 隐式对象
+### 2. `JSP` 隐式对象
 - `out` 对象
   - `print`  **`掌握`**
   - `println`  **`掌握`**
@@ -50,7 +50,33 @@
 - `page` 对象 **`了解`**
 - `config` 对象 **`了解`**
 
-### 4. `JSTL` 标签和 `EL` 表达式语言
+### 3. `Servlet` 编程
+- `Servlet` 的运行机制 **`理解`**
+- `Servlet` 的配置
+  - `Servlet` 的注册 **`掌握`**
+  - `Servlet` 的映射配置 **`掌握`**
+- `Servlet` 的生命周期
+  - `init` **`理解`**
+  - `service` **`理解`**
+  - `destroy` **`理解`**	
+- `Servlet` 处理表单提交数据的方式
+  - `doGet` **`掌握`**
+  - `doPost` **`掌握`**
+  - `get` 请求和 `post` 请求的区别 **`掌握`**
+- `cookie` 的使用 **`较高要求`**
+- 会话跟踪
+  - `session id` 的使用 **`理解`**
+  - 使用`Session` 进行会话跟踪 **`掌握`**
+    - `setAttribute` 
+    - `getAttribute` 
+    - `removeAttribute` 
+    - `invalidate` 
+    - `isNew` 
+    - `getLastAccessedTime` 
+    - `getMaxInactiveInterval` 
+  - 使用`ServletContext` 进行会话跟踪 **`较高要求`**
+  
+### 4. `EL` 表达式语言 和 `JSTL` 标签库 
 - `JSTL` 的由来 **`了解`**
   - `JSTL` 与 `EL` 的关系 **`了解`**
   - `EL` 表达式
@@ -91,33 +117,7 @@
     - `ServletContextListener` 
     - `ServletContextAttributesListener` 
     
-### 6. `Servlet` 编程
-- `Servlet` 的运行机制 **`理解`**
-- `Servlet` 的配置
-  - `Servlet` 的注册 **`掌握`**
-  - `Servlet` 的映射配置 **`掌握`**
-- `Servlet` 的生命周期
-  - `init` **`理解`**
-  - `service` **`理解`**
-  - `destroy` **`理解`**	
-- `Servlet` 处理表单提交数据的方式
-  - `doGet` **`掌握`**
-  - `doPost` **`掌握`**
-  - `get` 请求和 `post` 请求的区别 **`掌握`**
-- `cookie` 的使用 **`较高要求`**
-- 会话跟踪
-  - `session id` 的使用 **`理解`**
-  - 使用`Session` 进行会话跟踪 **`掌握`**
-    - `setAttribute` 
-    - `getAttribute` 
-    - `removeAttribute` 
-    - `invalidate` 
-    - `isNew` 
-    - `getLastAccessedTime` 
-    - `getMaxInactiveInterval` 
-  - 使用`ServletContext` 进行会话跟踪 **`较高要求`**
-  
-### 7. `JDBC` 编程
+### 6. `JDBC` 编程
 - `JDBC` 种类
   - 本地 `API` 驱动 **`了解`**
   - 网络协议驱动 **`了解`**
@@ -155,7 +155,7 @@
 - 操纵 `BLOB` /`CLOB` 数据类型 **`较高要求`**
 - 使用 `JDBC` 获取元数据 **`了解`**
 
-### 8. `jQuery` 框架
+### 7. `jQuery` `JS` 库
 - `jQuery` 简介 **`了解`**
 - `jQuery` 就绪方法 **`掌握`**
 - `jQuery` 的选择器 **`掌握`**
@@ -168,6 +168,6 @@
   - `$.ajax`  **`掌握`**
 - 常用的 `jQuery` 插件的使用 **`较高要求`**
 
-### 9. `JSON` 
+### 8. `JSON` 数据交换格式
 - `JSON` 的数据结构 **`掌握`**
 - 常用的 `JSON` 库 **`掌握`**
