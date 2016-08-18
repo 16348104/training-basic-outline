@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [教学基本要求概述](README.md)
 * [1. 前端技术基础](web/README.md)
     * [前端技术基础教学基本要求](web/outline.md)
 * [2. Java SE 程序设计](javase/README.md)
