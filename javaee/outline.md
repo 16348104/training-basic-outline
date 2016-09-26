@@ -66,7 +66,7 @@
 - `cookie` 的使用 **`较高要求`**
 - 会话跟踪
   - `session id` 的使用 **`理解`**
-  - 使用`Session` 进行会话跟踪 **`掌握`**
+  - 使用`session` 进行会话跟踪 **`掌握`**
     - `setAttribute` 
     - `getAttribute` 
     - `removeAttribute` 
