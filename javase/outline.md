@@ -31,8 +31,8 @@
 - 变量与数据类型
 	- `Java` 数据类型及分类 **`掌握`**
 	- 基本数据类型 **`掌握`**
-      - 整型 `byte`，`short`，`int`，`long`
-      - 浮点型 `float`、`double`
+      - 整型 `byte` `short` `int` `long`
+      - 浮点型 `float` `double`
       - 字符型 `char`
       - 布尔型`boolean`
     - 引用数据类型 **`掌握`**
