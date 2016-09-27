@@ -1,4 +1,4 @@
-# Android
+# Android 应用开发
 
 ### &sect; 1. 课程教学目标
 
@@ -13,7 +13,7 @@
 |模块|了解|理解|掌握|较高要求|参考学时（天）|
 |-|-|-|-|-|-|
 |Android 开发入门|||||1|
-|Actity 和 Intent|||||1|
+|Activity 和 Intent|||||1|
 |控件和布局|||||1|
 |Fragment|||||1|
 |Broadcast Receiver|||||1|
