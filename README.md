@@ -25,13 +25,13 @@
 
 ### 4. 学时
 
-本文档按下表分配以上七门课程
+本文档按下表分配以上七门课程，总学时共计 80 天。
 
 <table>
   <tr>
     <th>模块</th>
     <th>课程</th>
-    <th>学时</th>
+    <th>学时（天）</th>
   </tr>
   <tr>
     <td rowspan="3">基础课</td>
@@ -56,12 +56,18 @@
     <td>1</td>
   <tr>
   <tr>
-    <td rolspan="2">实践课</td>
+    <td>实践课</td>
     <td>Java EE 项目综合实训</td>
+    <td>1</td>
   </tr>
   <tr>
-    <td rolspan="2">增值课</td>
+    <td>增值课</td>
     <td>Android 应用开发</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: right">共计</td>
+    <td>80</td>
   </tr>
 </table>
 
