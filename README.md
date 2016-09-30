@@ -68,7 +68,7 @@
     </tr>
     <tr>
         <td>软件工程师职业规划</td>
-        <td>1</td>
+        <td>2</td>
     </tr>
     <tr>
         <td colspan="2" style="text-align: right">共计</td>
