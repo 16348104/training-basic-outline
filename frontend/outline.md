@@ -27,18 +27,18 @@
 - `HTML` 常用元素
   - `HTML` 文档基本结构 **`掌握`**
   
-        ```html
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-          <meta charset="UTF-8">
-          <title>Title</title>
-        </head>
-        <body>
-        
-        </body>
-        </html>     
-        ```
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+    </head>
+    <body>
+
+    </body>
+    </html>     
+    ```
   
   - 头部元素 **`掌握`**
     - `head`
