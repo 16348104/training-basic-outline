@@ -37,11 +37,11 @@
     <tr>
         <td rowspan="3">基础课</td>
         <td>前端技术基础</td>
-        <td>10</td>
+        <td>7</td>
     </tr>
     <tr>
         <td>Java SE 程序设计</td>
-        <td>18</td>
+        <td>16</td>
     </tr>
     <tr>
         <td>数据库技术基础</td>
@@ -50,7 +50,7 @@
     <tr>
         <td rowspan="2">综合课</td>
         <td>Java EE 程序设计</td>
-        <td>14</td>
+        <td>12</td>
     </tr>
     <tr>
         <td>Java EE 轻量级框架技术</td>
@@ -64,7 +64,7 @@
     <tr>
         <td rowspan="2">增值课</td>
         <td>Android 应用开发</td>
-        <td>10</td>
+        <td>7</td>
     </tr>
     <tr>
         <td>软件工程师职业规划</td>
