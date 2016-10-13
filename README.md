@@ -24,13 +24,13 @@
 
 ### 4. 学时
 
-本文档按下表分配以上八门课程，总学时共计 80 天。
+本文档按下表分配以上八门课程，总学时合计 80 天。
 
 <table>
     <tr>
-        <th>模块</th>
-        <th>课程</th>
-        <th style="text-align: right;">学时（天）</th>
+        <th style="text-align: center;">模块</th>
+        <th style="text-align: center;">课程</th>
+        <th style="text-align: center;">学时（天）</th>
     </tr>
     <tr>
         <td rowspan="3">基础课</td>
