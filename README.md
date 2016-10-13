@@ -35,42 +35,42 @@
     <tr>
         <td rowspan="3">基础课</td>
         <td>前端技术基础</td>
-        <td>7</td>
+        <td style="text-align: right;">7</td>
     </tr>
     <tr>
         <td>Java SE 程序设计</td>
-        <td>16</td>
+        <td style="text-align: right;">16</td>
     </tr>
     <tr>
         <td>数据库技术基础</td>
-        <td>8</td>
+        <td style="text-align: right;">8</td>
     </tr>
     <tr>
         <td rowspan="2">综合课</td>
         <td>Java EE 程序设计</td>
-        <td>12</td>
+        <td style="text-align: right;">12</td>
     </tr>
     <tr>
         <td>Java EE 轻量级框架技术</td>
-        <td>18</td>
+        <td style="text-align: right;">18</td>
     <tr>
     <tr>
         <td>实践课</td>
         <td>Java EE 项目综合实训</td>
-        <td>10</td>
+        <td style="text-align: right;">10</td>
     </tr>
     <tr>
         <td rowspan="2">增值课</td>
         <td>Android 应用开发</td>
-        <td>7</td>
+        <td style="text-align: right;">7</td>
     </tr>
     <tr>
         <td>软件工程师职业规划</td>
-        <td>2</td>
+        <td style="text-align: right;">2</td>
     </tr>
     <tr>
         <td colspan="2" style="text-align: right">共计</td>
-        <td>80</td>
+        <td style="text-align: right;">80</td>
     </tr>
 </table>
 
