@@ -69,7 +69,7 @@
         <td style="text-align: right;">2</td>
     </tr>
     <tr>
-        <td colspan="2" style="text-align: right">共计</td>
+        <td colspan="2">共计</td>
         <td style="text-align: right;">80</td>
     </tr>
 </table>
