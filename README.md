@@ -1,7 +1,5 @@
 # <center>Java 高级 Web 开发系列课程</center> 
-# <center>教学基本要求</center> 
-###### <center>第 8 版</center>
-###### <center>2016 年 8 月</center>
+# <center>教学基本要求概述</center>
 
 ### 1. 内容
 
@@ -32,7 +30,7 @@
     <tr>
         <th>模块</th>
         <th>课程</th>
-        <th>学时（天）</th>
+        <th style="text-align: right;">学时（天）</th>
     </tr>
     <tr>
         <td rowspan="3">基础课</td>
