@@ -1,4 +1,4 @@
-# <center>Java 服务器端开发系列课程</center> 
+# <center>Java 后端开发系列课程</center> 
 # <center>教学大纲</center>
 
 ### 1. 内容
