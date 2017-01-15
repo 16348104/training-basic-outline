@@ -1,5 +1,5 @@
-# <center>Java 高级 Web 开发系列课程</center> 
-# <center>教学基本要求概述</center>
+# <center>Java 服务器端开发系列课程</center> 
+# <center>教学大纲</center>
 
 ### 1. 内容
 
