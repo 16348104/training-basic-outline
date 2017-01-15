@@ -11,7 +11,7 @@
 
 ### 3. 课程
 
-本文档以课程为单位划分为八个组成部分。
+本文档以课程为单位划分为七个组成部分。
 
 1. 前端技术基础
 2. Java SE 程序设计
@@ -19,14 +19,12 @@
 4. Java EE 程序设计
 5. Java EE 轻量级框架技术
 6. Java EE 项目综合实训
-7. Android 应用开发
-8. 软件工程师职业规划
+7. 软件工程师职业规划
 
 ### 4. 学时
 
-本文档按下表分配以上八门课程，总学时合计 80 天。
-
-<table>
+本文档按下表分配以上七门课程，总学时合计 80 天。
+<table border="1">
     <tr>
         <th style="text-align: center;">模块</th>
         <th style="text-align: center;">课程</th>
@@ -57,15 +55,10 @@
     <tr>
         <td>实践课</td>
         <td>Java EE 项目综合实训</td>
-        <td style="text-align: right;">10</td>
+        <td style="text-align: right;">17</td>
     </tr>
     <tr>
-        <td rowspan="2">增值课</td>
-        <td>Android 应用开发</td>
-        <td style="text-align: right;">7</td>
-    </tr>
-    <tr>
-        <td>软件工程师职业规划</td>
+        <td colspan="2">软件工程师职业规划</td>
         <td style="text-align: right;">2</td>
     </tr>
     <tr>
